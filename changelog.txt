@@ -1,4 +1,6 @@
-= Unreleased =
+= 1.0.0 - 2023-12-03 =
+* Tweak: Update theme name and version, refine bundle script
+* Updated: Update theme version and fix CSS selectors
 * Tweak: Refactor wpkit-elementor theme index template
 * Tweak: Remove unused template parts from theme
 * Tweak: Extend page rendering in wpkit-elementor theme
