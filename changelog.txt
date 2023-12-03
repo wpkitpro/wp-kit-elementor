@@ -1,4 +1,5 @@
 = Unreleased =
+* Fixed: Fix typo in class name in style.scss
 * Fixed: Refactor CSS class name in style.scss
 * Tweak: Update dependencies in package.json & package-lock.json
 * Tweak: Update package.json with bundling and translation tasks
