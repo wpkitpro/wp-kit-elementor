@@ -1,4 +1,5 @@
 = Unreleased =
+* Fixed: Refactor CSS class name in style.scss
 * Tweak: Update dependencies in package.json & package-lock.json
 * Tweak: Update package.json with bundling and translation tasks
 * Tweak: Update template structure and improve accessibility in page.php
