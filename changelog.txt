@@ -1,4 +1,5 @@
 = Unreleased =
+* Tweak: Update Author URI and theme description in style.scss
 * Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
 * Tweak: Update theme styling and URI information
 * Tweak: Updated footer template for improved accessibility and branding
