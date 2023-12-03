@@ -2,7 +2,7 @@
 /**
  * The template for displaying sidebar.
  *
- * @package WP Kit Elementor
+ * @package WPKitElementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
