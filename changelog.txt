@@ -1,0 +1,17 @@
+= Unreleased =
+* Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
+* Tweak: Update theme styling and URI information
+* Tweak: Updated footer template for improved accessibility and branding
+* Tweak: Updated header template for improved accessibility
+* Tweak: Refactor header template and enhance site branding
+* Tweak: Add feature to display temperature in Fahrenheit
+* Tweak: Remove unused js files from WPKit Elementor theme
+* Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
+* Tweak: Refactored WPKit Elementor theme configurations
+* Tweak: Updated functions.php with theme support and basic setups
+* Tweak: Remove setup.php and template-functions.php
+* Tweak: Refactored file paths and updated theme details
+* Tweak: Remove excessive CSS styling from WPKit theme
+
+= 0.0.1 - 2023-12-03 =
+* Initial Public Release
