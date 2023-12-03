@@ -14,12 +14,11 @@ require('@tinypixelco/laravel-mix-wp-blocks');
  */
 
 mix
-  .setPublicPath('./assets')
-  .browserSync('wpkit.local');
+  .setPublicPath('/')
+  .browserSync('wpkit-pro.local');
 
 mix
-  .sass('assets/sass/style.scss', 'assets/css')
-  .sass('assets/sass/style-editor.scss', 'assets/css')
+  .sass('style.scss', 'style.css')
   .options({
     processCssUrls: false,
   });

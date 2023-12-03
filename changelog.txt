@@ -1,0 +1,28 @@
+= Unreleased =
+* Tweak: Update template structure and improve accessibility in page.php
+* Tweak: Update skip link target and change content wrapper in header.php
+* Tweak: Rename package name and change main content wrapper in footer.php
+* Tweak: Update main content accessibility and documentation
+* Added: Add comments.php for WP Kit Elementor theme
+* Tweak: Update theme information in style.css
+* Removed: Remove unused custom template in WPKit
+* Added: Add sidebar.php to avoid Deprecated Message
+* Tweak: Rename LICENSE.md to LICENSE and update copyright
+* Tweak: Add footer documentation to footer.php
+* Tweak: Update Author URI and theme description in style.scss
+* Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
+* Tweak: Update theme styling and URI information
+* Tweak: Updated footer template for improved accessibility and branding
+* Tweak: Updated header template for improved accessibility
+* Tweak: Refactor header template and enhance site branding
+* Tweak: Add feature to display temperature in Fahrenheit
+* Tweak: Remove unused js files from WPKit Elementor theme
+* Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
+* Tweak: Refactored WPKit Elementor theme configurations
+* Tweak: Updated functions.php with theme support and basic setups
+* Tweak: Remove setup.php and template-functions.php
+* Tweak: Refactored file paths and updated theme details
+* Tweak: Remove excessive CSS styling from WPKit theme
+
+= 0.0.1 - 2023-12-03 =
+* Initial Public Release

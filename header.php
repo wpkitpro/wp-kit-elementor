@@ -7,6 +7,9 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -17,9 +20,14 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site-page">
-	<a class="visually-hidden-focusable" href="#main"><?php esc_html_e( 'Skip to content', 'wpkit' ); ?></a>
+<div id="page-wrapper" class="site-page">
 
-	<?php get_template_part( 'template-parts/header/site-header' ); ?>
+	<a class="skip-link screen-reader-text" href="#content">
+		<?php esc_html_e( 'Skip to content', 'wpkit-elementor' ); ?>
+	</a>
 
-	<main id="main" class="container content-area">
+	<?php get_template_part( 'template-parts/header' ); ?>
+
+	<div id="content" class="site-content">
+
+
