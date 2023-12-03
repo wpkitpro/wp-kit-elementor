@@ -1,4 +1,5 @@
 = Unreleased =
+* Tweak: Update dependencies in package.json & package-lock.json
 * Tweak: Update package.json with bundling and translation tasks
 * Tweak: Update template structure and improve accessibility in page.php
 * Tweak: Update skip link target and change content wrapper in header.php
