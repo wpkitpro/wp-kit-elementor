@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Bump Version and Generate Changelog
+        run: npx standard-version
+
+      - name: Exclude Unwanted Files
+        run: |
+          rm -f .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json README.md style.scss webpack.mix.js yarn.lock
+
+      - name: Commit and Push Changes
+        run: |
+          git add -A
+          git commit -m "chore(release): Release ${{ github.ref }}"
+          git push origin main
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
