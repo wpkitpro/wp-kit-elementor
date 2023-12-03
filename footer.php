@@ -6,8 +6,8 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package WP Kit Elementor
- * @since WP Kit Elementor 1.0
+ * @package WPKitElementor
+ * @since WPKitElementor 1.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ $theme_name   = wp_get_theme()->get( 'Name' );
 $theme_author = wp_get_theme()->get( 'Author' );
 $theme_url    = 'https://wpkit.pro';
 ?>
-</main><!-- #main -->
+</div><!-- #content -->
 
 <footer id="colophon" class="site-footer">
 
