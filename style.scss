@@ -1,6 +1,6 @@
 /*
 Theme Name: WPKit Elementor
-Theme URI: http://wpkit.pro/
+Theme URI: http://wpkit.pro/wpkit-elementor
 Author: WPKit
 Author URI: http://wpkit.pro/
 Description: WPKit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WPKit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WPKit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
@@ -8,13 +8,20 @@ Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 7.4
 Version: 0.0.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: wpkit-elementor
 Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
 WPKit Elementor Team, (C) 2023 wpkit.pro
 */
+
+:root {
+	--global--body-color: #212529;
+	--global--body-bg: #ffffff;
+	--global--link-color: #605be5;
+	--global--link-hover-color: #333366;
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -24,15 +31,56 @@ html {
 
 body {
 	margin: 0;
+	font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--global--body-color);
+	background-color: var(--global--body-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 main {
 	display: block;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.5em;
+	margin-bottom: 1rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+}
+
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+	font-size: 2.5rem; /* 40/16 */
+}
+
+h2 {
+	font-size: 2rem; /* 32/16 */
+}
+
+h3 {
+	font-size: 1.75rem; /* 28/16 */
+}
+
+h4 {
+	font-size: 1.5rem; /* 24/16 */
+}
+
+h5 {
+	font-size: 1.25rem; /* 20/16 */
+}
+
+h6 {
+	font-size: 1rem; /* 16/16 */
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: .9rem; /* 14/16 */
 }
 
 hr {
@@ -44,11 +92,24 @@ hr {
 pre {
 	font-family: monospace;
 	font-size: 1em;
+	white-space: pre-wrap;
 }
 
 a {
 	background-color: transparent;
 	text-decoration-thickness: 1px;
+	color: var(--global--link-color);
+
+	&:hover, &:active {
+		color: var(--global--link-hover-color);
+	}
+
+	&:not([href]):not([tabindex]),
+	&:not([href]):not([tabindex]):hover,
+	&:not([href]):not([tabindex]):focus {
+		color: inherit;
+		text-decoration: none;
+	}
 }
 
 abbr[title] {
@@ -91,6 +152,16 @@ sup {
 
 img {
 	border-style: none;
+	height: auto;
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: 16px;
+	color: #212529;
+	line-height: 1.4;
+	font-style: italic;
+	font-weight: 400;
 }
 
 button,
@@ -99,7 +170,7 @@ optgroup,
 select,
 textarea {
 	font-family: inherit;
-	font-size: 100%;
+	font-size: 1rem;
 	line-height: 1.15;
 	margin: 0;
 }
@@ -118,6 +189,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+	width: auto;
 	-webkit-appearance: button;
 }
 
@@ -155,6 +227,7 @@ progress {
 
 textarea {
 	overflow: auto;
+	resize: vertical;
 }
 
 [type="checkbox"],
@@ -182,6 +255,10 @@ textarea {
 	font: inherit;
 }
 
+select {
+	display: block;
+}
+
 details {
 	display: block;
 }
@@ -196,4 +273,453 @@ template {
 
 [hidden] {
 	display: none;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+@media print {
+	*, *:before, *:after {
+		background: transparent !important;
+		color: #000;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a {
+		&:visited {
+			text-decoration: underline;
+		}
+
+		&[href]:after {
+			content: "(" attr(href) ")";
+		}
+
+		&[href^="#"]:after,
+		&[href^="javascript"]:after {
+			content: "";
+		}
+	}
+
+	abbr[title] {
+		content: "(" attr(title) ")";
+	}
+
+	pre {
+		white-space: pre-wrap !important;
+	}
+
+	pre, blockquote {
+		page-break-inside: avoid;
+		border: 1px solid #cccccc;
+	}
+
+	thead {
+		display: table-header-group;
+	}
+
+	tfoot {
+		display: table-footer-group;
+	}
+
+	tr, img {
+		page-break-inside: avoid;
+	}
+
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2, h3 {
+		page-break-inside: avoid;
+	}
+}
+
+label {
+	display: inline-block;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+	width: 100%;
+	border: solid 1px #666666;
+	border-radius: 3px;
+	padding: 0.5rem 1rem; /* 8/16 *//* 16/16 */
+	transition: all 300ms;
+
+	&:focus {
+		border-color: #333333;
+		outline: 0 none;
+	}
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type="button"],
+[type="submit"] {
+	display: inline-block;
+	font-weight: 400;
+	color: var(--global--link-color);
+	text-align: center;
+	white-space: nowrap;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid var(--global--link-color);
+	padding: 0.5rem 1rem; /* 8/16 *//* 16/16 */
+	font-size: 1rem; /* 16/16 */
+	border-radius: 3px;
+	transition: all 300ms;
+
+	&:focus {
+		outline: 5px auto -webkit-focus-ring-color;
+	}
+
+	&:hover {
+		color: #ffffff;
+		background-color: var(--global--link-color);
+		text-decoration: none;
+	}
+
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+}
+
+table {
+	background-color: transparent;
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 0.9em;
+	border-spacing: 0;
+	border-collapse: collapse;
+
+	th, td {
+		padding: 15px;
+		line-height: 1.5;
+		vertical-align: top;
+		border: 1px solid #cccccc;
+	}
+
+	th {
+		font-weight: bold;
+	}
+
+	tbody,
+	tfoot {
+		th {
+			font-size: 1em;
+		}
+	}
+
+	caption + thead tr:first-child th,
+	caption + thead tr:first-child td,
+	caption + thead tr:first-child th,
+	caption + thead tr:first-child td,
+	colgroup + thead tr:first-child th,
+	colgroup + thead tr:first-child td,
+	colgroup + thead tr:first-child th,
+	colgroup + thead tr:first-child td,
+	thead:first-child tr:first-child th,
+	thead:first-child tr:first-child td,
+	thead:first-child tr:first-child th,
+	thead:first-child tr:first-child td {
+		border-top: 1px solid #cccccc;
+	}
+
+	> tr:nth-child(odd) > td,
+	> tr:nth-child(odd) > th {
+		background-color: #F7F7F7;
+	}
+
+	tbody tr:hover > td,
+	tbody tr:hover > th {
+		background-color: #e9e9e9;
+	}
+
+	tbody + tbody {
+		border-top: 2px solid #cccccc;
+	}
+}
+
+@media (max-width: 767px) {
+	table {
+		table {
+			font-size: 0.8em;
+
+			th, td {
+				padding: 7px;
+				line-height: 1.3;
+			}
+
+			th {
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+dl, dt, dd, ol, ul, li {
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/** WordPress Default Class  */
+.alignright {
+	float: right;
+	margin-left: 1rem; /* 16/16 */
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1rem; /* 16/16 */
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alignwide {
+	margin-right: -80px;
+	margin-left: -80px;
+}
+
+.alignfull {
+	margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+
+	img {
+		width: 100vw;
+	}
+}
+
+.wp-caption {
+	margin-bottom: 1.25rem; /* 20/16 */
+	max-width: 100%;
+
+	&.alignleft {
+		margin: 5px 20px 20px 0;
+	}
+
+	&.alignright {
+		margin: 5px 0 20px 20px;
+	}
+
+	img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.wp-caption-text {
+	margin: 0;
+}
+
+.gallery-caption {
+	display: block;
+	font-size: 0.8125rem; /* 13/16 */
+	line-height: 1.5;
+	margin: 0;
+	padding: 0.75rem; /* 12/16 */
+}
+
+.pagination {
+	margin: 1.25rem auto; /* 20/16 */
+}
+
+.sticky {
+	position: relative;
+	display: block;
+}
+
+.bypostauthor {
+	font-size: inherit;
+}
+
+.hide {
+	display: none !important;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+	position: absolute !important;
+	white-space: nowrap;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	clip: auto !important;
+	display: block;
+	height: auto;
+	left: 5px;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/** Theme Styles */
+.site-page {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.875rem; /* 30/16 */
+	padding: 1.25rem 0; /* 20/16 */
+}
+
+.site-logo {
+	h1,
+	.site-description {
+		margin: 0;
+	}
+}
+
+.primary-navigation {
+	ul {
+		display: flex;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin-bottom: 1.25rem; /* 20/16 */
+		}
+	}
+}
+
+.kit-theme-post {
+	margin-bottom: 3.125rem; /* 50/16 */
+
+	img {
+		max-width: 100%;
+	}
+
+	.post-title {
+		margin: 0;
+	}
+
+	.post-categories {
+		margin-bottom: 1.25rem; /* 20/16 */
+	}
+
+	.post-footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1.25rem 0; /* 20/16 */
+		border-bottom: 1px solid #e8e8e8;
+	}
+
+	.read-more {
+		display: inline-block;
+		padding: .3125rem .9375rem; /* 5/16 *//* 15/16 */
+		border: 1px solid var(--global--link-color);
+		text-transform: capitalize;
+	}
+
+	.post-tags a {
+		display: inline-block;
+		margin-right: .625rem; /* 10/16 */
+	}
+}
+
+.commentslist {
+	list-style-type: none;
+	padding: 0;
+
+	.children {
+		list-style-type: none;
+	}
+
+	li {
+		padding: 1.25rem; /* 20/16 */
+		margin-top: 1.25rem; /* 20/16 */
+		margin-bottom: 1.25rem; /* 20/16 */
+		border: 1px solid #e8e8e8;
+	}
+
+	img {
+		margin-right: .625rem; /* 10/16 */
+	}
+
+	.reply {
+		display: inline-block;
+		padding: .3125rem .9375rem; /* 5/16 *//* 15/16 */
+		border: 1px solid var(--global--link-color);
+	}
+}
+
+.comment-form-comment {
+	input,
+	textarea {
+		border-color: #e8e8e8;
+	}
+}
+
+nav {
+	&.primary-navigation {
+		text-align: center;
+
+		a, span {
+			padding: .3125rem .9375rem; /* 5/16 *//* 15/16 */
+			border: 1px solid #e8e8e8;
+		}
+	}
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 1.875rem 0; /* 30/16 */
+}
+
+.site-logo a,
+.primary-navigation a,
+.kit-theme-pos .read-more a,
+.kit-theme-pos .post-title a {
+	text-decoration: none;
 }
