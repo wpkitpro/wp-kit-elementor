@@ -1,4 +1,5 @@
 = Unreleased =
+* Tweak: Extend page rendering in wpkit-elementor theme
 * Fixed: Fix typo in class name in style.scss
 * Fixed: Refactor CSS class name in style.scss
 * Tweak: Update dependencies in package.json & package-lock.json
