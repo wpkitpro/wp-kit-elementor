@@ -7,7 +7,7 @@ Description: WP Kit Elementor is a versatile and streamlined WordPress theme met
 Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 7.4
-Version: 0.0.1
+Version: 1.0.0
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: wpkit-elementor
@@ -673,7 +673,7 @@ nav.primary-navigation a, nav.primary-navigation span {
 
 .site-logo a,
 .primary-navigation a,
-.kit-theme-pos .read-more a,
-.kit-theme-pos .post-title a {
+.kit-theme-post .read-more a,
+.kit-theme-post .post-title a {
   text-decoration: none;
 }
