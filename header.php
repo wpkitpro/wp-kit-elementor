@@ -22,10 +22,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php wp_body_open(); ?>
 <div id="page-wrapper" class="site-page">
 
-	<a class="skip-link screen-reader-text" href="#main">
+	<a class="skip-link screen-reader-text" href="#content">
 		<?php esc_html_e( 'Skip to content', 'wpkit-elementor' ); ?>
 	</a>
 
 	<?php get_template_part( 'template-parts/header' ); ?>
 
-	<main id="main" class="container content-area">
+	<div id="content" class="site-content">
+
+
