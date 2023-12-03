@@ -1,4 +1,14 @@
 = Unreleased =
+* Tweak: Update template structure and improve accessibility in page.php
+* Tweak: Update skip link target and change content wrapper in header.php
+* Tweak: Rename package name and change main content wrapper in footer.php
+* Tweak: Update main content accessibility and documentation
+* Added: Add comments.php for WP Kit Elementor theme
+* Tweak: Update theme information in style.css
+* Removed: Remove unused custom template in WPKit
+* Added: Add sidebar.php to avoid Deprecated Message
+* Tweak: Rename LICENSE.md to LICENSE and update copyright
+* Tweak: Add footer documentation to footer.php
 * Tweak: Update Author URI and theme description in style.scss
 * Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
 * Tweak: Update theme styling and URI information
