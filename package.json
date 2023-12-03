@@ -27,7 +27,6 @@
 		"bundle": "dir-archiver --src . --dest ../wpkit-elementor.zip --exclude .DS_Store .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json README.md style.scss webpack.mix.js yarn.lock"
 	},
 	"devDependencies": {
-		"@popperjs/core": "^2.11.6",
 		"@tinypixelco/laravel-mix-wp-blocks": "^1.2.0",
 		"@wordpress/babel-preset-default": "^7.8.0",
 		"@wordpress/blocks": "^12.1.0",
@@ -35,7 +34,6 @@
 		"@wordpress/dependency-extraction-webpack-plugin": "^4.7.0",
 		"@wordpress/dom-ready": "^3.24.0",
 		"babel-eslint": "^10.1.0",
-		"bootstrap": "^5.3.1",
 		"browser-sync": "^2.27.11",
 		"browser-sync-webpack-plugin": "^2.3.0",
 		"dir-archiver": "^2.1.0",
@@ -46,11 +44,9 @@
 		"sass": "^1.57.1",
 		"sass-loader": "^13.2.0",
 		"stylelint": "^15.11.0",
-		"stylelint-config-recommended-scss": "^13.1.0",
-		"stylelint-config-standard": "^34.0.0"
+		"stylelint-config-recommended-scss": "^13.1.0"
 	},
 	"peerDependencies": {
-		"jquery": "^3.5.1"
-	},
-	"dependencies": {}
+		"jquery": "^3.7.1"
+	}
 }
