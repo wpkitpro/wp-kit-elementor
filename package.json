@@ -22,9 +22,9 @@
 		"lint:js": "eslint resources/scripts",
 		"lint:css": "stylelint \"resources/**/*.{css,scss,vue}\"",
 		"translate": "npm run translate:pot && npm run translate:js",
-		"translate:pot": "wp i18n make-pot . ./resources/lang/wpkit.pot --ignore-domain --include=\"app,resources\"",
-		"translate:js": "wp i18n make-json ./resources/lang --pretty-print",
-		"release": "semantic-release"
+		"translate:pot": "wp i18n make-pot . ./languages/wpkit-elementor.pot --ignore-domain --include=\"app,resources\"",
+		"translate:js": "wp i18n make-json ./languages --pretty-print",
+		"bundle": "dir-archiver --src . --dest ../wpkit-elementor.zip --exclude .DS_Store .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json README.md style.scss webpack.mix.js yarn.lock"
 	},
 	"devDependencies": {
 		"@popperjs/core": "^2.11.6",
@@ -38,6 +38,7 @@
 		"bootstrap": "^5.3.1",
 		"browser-sync": "^2.27.11",
 		"browser-sync-webpack-plugin": "^2.3.0",
+		"dir-archiver": "^2.1.0",
 		"eslint": "^8.31.0",
 		"eslint-plugin-import": "^2.26.0",
 		"laravel-mix": "^6.0.49",
