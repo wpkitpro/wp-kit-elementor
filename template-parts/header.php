@@ -17,7 +17,7 @@ $blog_description = get_bloginfo( 'description', 'display' );
 		<?php elseif ( $blog_name ): ?>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-				   title="<?php esc_html_e( 'Home', 'wpkit-elementor' ); ?>"
+				   title="<?php echo esc_attr__( 'Home', 'wpkit-elementor' ); ?>"
 				   rel="home"
 				>
 					<?php echo $blog_name; ?>
