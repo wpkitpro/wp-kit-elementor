@@ -26,3 +26,13 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Image Credits (screenshot.png):
+
+Hand-drawn illustrations used are created by WP Royal Team and released under Creative Commons ( CC0 ) License.
+
+https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration1.PNG
+https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration2.PNG
+https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration3.PNG
+https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration4.PNG
+https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration5.PNG

@@ -1,4 +1,8 @@
 = 1.0.1 - 2023-12-11 =
+
+### Updated
+
+* Updated: Update README files and package details for WPKit Elementor theme
 * Updated: Update SDK class with improved exception handling
 
 = 1.0.0 - 2023-12-03 =
