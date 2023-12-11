@@ -1,3 +1,6 @@
+= 1.0.1 - 2023-12-11 =
+* Updated: Update SDK class with improved exception handling
+
 = 1.0.0 - 2023-12-03 =
 * Tweak: Update theme name and version, refine bundle script
 * Updated: Update theme version and fix CSS selectors
