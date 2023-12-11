@@ -2,6 +2,7 @@
 
 ### Fixed
 
+* Fixed: text domain in 404.php
 * Fixed: 'esc_html_e' to 'esc_attr__' in header.php
 
 ### Updated
