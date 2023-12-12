@@ -1,17 +1,16 @@
 = 1.0.1 - 2023-12-11 =
 
-### Fixed
+### Updated
+* Update version number in wpkit-elementor theme
+* Update README files and package details for WPKit Elementor theme
+* Update SDK class with improved exception handling
 
+### Fixed
 * Fixed: text domain in 404.php
 * Fixed: 'esc_html_e' to 'esc_attr__' in header.php
 
-### Updated
-
-* Updated: Update README files and package details for WPKit Elementor theme
-* Updated: Update SDK class with improved exception handling
 
 = 1.0.0 - 2023-12-03 =
-
 * Tweak: Update theme name and version, refine bundle script
 * Updated: Update theme version and fix CSS selectors
 * Tweak: Refactor wpkit-elementor theme index template
