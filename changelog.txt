@@ -1,7 +1,7 @@
 = 1.0.2 - 2023-12-13 =
 
 ### Updated
-— Update image license details in readme
+— Screenshot image license details in readme
 — Text domain in all theme files
 
 ### Removed
