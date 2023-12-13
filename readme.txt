@@ -27,12 +27,37 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+== Image License ==
 Image Credits (screenshot.png):
 
-Hand-drawn illustrations used are created by WP Royal Team and released under Creative Commons ( CC0 ) License.
+IMPORTANT NOTICE: This license only applies if you downloaded this content as
+a subscribed (or "premium") user. If you are an unsubscribed user (or "free"
+user) you are bound to the license terms described in the accompanying file
+"License free.txt".
 
-https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration1.PNG
-https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration2.PNG
-https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration3.PNG
-https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration4.PNG
-https://royal-elementor-addons.com/wp-content/uploads/wporg-theme-imgs/illustration5.PNG
+---------------------
+
+You can download from your profile in Freepik a personalized license stating
+your right to use this content as a "premium" user:
+
+  https://profile.freepik.com/my_downloads
+
+You are free to use this image:
+
+- For both personal and commercial projects and to modify it.
+- In a website or presentation template or application or as part of your design.
+
+You are not allowed to:
+
+- Sub-license, resell or rent it.
+- Include it in any online or offline archive or database.
+
+The full terms of the license are described in sections 7 and 8 of the Freepik
+terms of use, available online in the following link:
+
+  http://www.freepik.com/terms_of_use
+
+The terms described in the above link have precedence over the terms described
+in the present document. In case of disagreement, the Freepik Terms of Use
+will prevail.
+
