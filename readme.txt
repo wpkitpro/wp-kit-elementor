@@ -3,7 +3,7 @@
 Author: WP Kit
 Requires at least: WordPress 5.9
 Tested up to: WordPress 6.4.1
-Version: 0.0.1
+Version: 1.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
