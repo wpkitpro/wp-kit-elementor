@@ -33,7 +33,7 @@ get_header();
 
 				// Post Pagination
 				$args = array(
-					'before' => '<p class="single-pagination">' . esc_html__( 'Pages:', 'wpkit-elementor' ),
+					'before' => '<p class="single-pagination">' . esc_html__( 'Pages:', 'wp-kit-elementor' ),
 					'after'  => '</p>'
 				);
 				wp_link_pages( $args );

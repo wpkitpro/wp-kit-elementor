@@ -28,7 +28,7 @@ $theme_url    = 'https://wpkit.pro';
 			<?php
 			/* translators: %1$s: theme name, %2$s link, %3$s theme author */
 			echo sprintf( __( '%1$s Theme by <a href="%2$s">%3$s.</a>',
-				'wpkit-elementor' ), esc_html( $theme_name ),
+				'wp-kit-elementor' ), esc_html( $theme_name ),
 				esc_url( $theme_url ),
 				$theme_author
 			);

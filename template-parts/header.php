@@ -17,7 +17,7 @@ $blog_description = get_bloginfo( 'description', 'display' );
 		<?php elseif ( $blog_name ): ?>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-				   title="<?php echo esc_attr__( 'Home', 'wpkit-elementor' ); ?>"
+				   title="<?php echo esc_attr__( 'Home', 'wp-kit-elementor' ); ?>"
 				   rel="home"
 				>
 					<?php echo $blog_name; ?>
@@ -33,7 +33,7 @@ $blog_description = get_bloginfo( 'description', 'display' );
 	</div>
 	<nav id="site-navigation"
 		 class="primary-navigation"
-		 aria-label="<?php esc_attr_e( 'Primary menu', 'wpkit-elementor' ); ?>"
+		 aria-label="<?php esc_attr_e( 'Primary menu', 'wp-kit-elementor' ); ?>"
 	>
 		<?php if ( has_nav_menu( 'primary' ) ) { ?>
 			<?php wp_nav_menu( [ 'theme_location' => 'primary' ] ); ?>

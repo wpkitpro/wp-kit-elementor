@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div id="page-wrapper" class="site-page">
 
 	<a class="skip-link screen-reader-text" href="#content">
-		<?php esc_html_e( 'Skip to content', 'wpkit-elementor' ); ?>
+		<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
 	</a>
 
 	<?php get_template_part( 'template-parts/header' ); ?>

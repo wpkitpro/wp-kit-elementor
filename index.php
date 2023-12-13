@@ -42,12 +42,12 @@ get_header();
 						<div class="post-meta">
 							<span class="post-data"><?php the_time( get_option( 'date_format' ) ); ?></span>
 							<span class="meta-sep">/</span>
-							<?php comments_popup_link( esc_html__( '0 Comments', 'wpkit-elementor' ), esc_html__( '1 Comment', 'wpkit-elementor' ), '% ' . esc_html__( 'Comments', 'wpkit-elementor' ) ); ?>
+							<?php comments_popup_link( esc_html__( '0 Comments', 'wp-kit-elementor' ), esc_html__( '1 Comment', 'wp-kit-elementor' ), '% ' . esc_html__( 'Comments', 'wp-kit-elementor' ) ); ?>
 						</div>
 
 						<div class="read-more">
 							<a href="<?php echo esc_url( get_permalink() ); ?>">
-								<?php esc_html_e( 'read more', 'wpkit-elementor' ); ?>
+								<?php esc_html_e( 'read more', 'wp-kit-elementor' ); ?>
 							</a>
 						</div>
 					</footer>
@@ -57,8 +57,8 @@ get_header();
 			?>
 		<?php else: ?>
 			<div class="no-result-found">
-				<h3><?php esc_html_e( 'Nothing Found!', 'wpkit-elementor' ); ?></h3>
-				<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'wpkit-elementor' ); ?></p>
+				<h3><?php esc_html_e( 'Nothing Found!', 'wp-kit-elementor' ); ?></h3>
+				<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'wp-kit-elementor' ); ?></p>
 				<div class="ashe-widget widget_search">
 					<?php get_search_form(); ?>
 				</div>

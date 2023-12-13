@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <?php if ( have_comments() ): ?>
 	<h2 class="comment-title">
-		<?php comments_number( esc_html__( '0 Comments', 'wpkit-elementor' ),
-			esc_html__( 'One Comment', 'wpkit-elementor' ),
-			esc_html__( '% Comments', 'wpkit-elementor' ) );
+		<?php comments_number( esc_html__( '0 Comments', 'wp-kit-elementor' ),
+			esc_html__( 'One Comment', 'wp-kit-elementor' ),
+			esc_html__( '% Comments', 'wp-kit-elementor' ) );
 		?>
 	</h2>
 
@@ -35,13 +35,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="default-previous">
 					<?php previous_comments_link(
 						'&#8592;&nbsp;' .
-						esc_html__( 'One Comment', 'wpkit-elementor' )
+						esc_html__( 'One Comment', 'wp-kit-elementor' )
 					); ?>
 				</div>
 
 				<div class="default-next">
 					<?php next_comments_link(
-						esc_html__( 'Newer Comments', 'wpkit-elementor' ) .
+						esc_html__( 'Newer Comments', 'wp-kit-elementor' ) .
 						'&#8592;&nbsp;'
 					); ?>
 				</div>
@@ -50,6 +50,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php endif; ?>
 <?php endif; // Endif have_comments() ?>
 <?php comment_form( [
-	'title_reply'   => esc_html__( 'Leave a Reply', 'wpkit-elementor' ),
-	'comment_field' => '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'Comment', 'wpkit-elementor' ) . '</label><textarea name="comment" id="comment" cols="45" rows="8" maxlength="65525" required="required" spellcheck="false"></textarea></p>',
+	'title_reply'   => esc_html__( 'Leave a Reply', 'wp-kit-elementor' ),
+	'comment_field' => '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'Comment', 'wp-kit-elementor' ) . '</label><textarea name="comment" id="comment" cols="45" rows="8" maxlength="65525" required="required" spellcheck="false"></textarea></p>',
 ] ); ?>

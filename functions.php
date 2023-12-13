@@ -29,7 +29,7 @@ function setup() {
 
 	// This theme uses wp_nav_menu() in one location
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'wpkit-elementor' ),
+		'primary' => __( 'Primary Menu', 'wp-kit-elementor' ),
 	) );
 
 	// Switch default core markup for search form, comment form, and comments to output valid HTML5
@@ -42,6 +42,8 @@ function setup() {
 
 	// Gutenberg Embeds
 	add_theme_support( 'responsive-embeds' );
+
+	add_theme_support( "post-thumbnails" );
 
 	// Gutenberg Widget Images
 	add_theme_support( 'align-wide' );
@@ -66,11 +68,13 @@ add_action( 'after_setup_theme', 'setup' );
 
 function scripts() {
 	// Theme Stylesheet
-	wp_enqueue_style( 'wpkit-elementor', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'wp-kit-elementor', get_stylesheet_uri(), array(),
+		wp_get_theme()->get( 'Version' ) );
 
 	// Comment reply link
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+
 add_action( 'wp_enqueue_scripts', 'scripts' );
