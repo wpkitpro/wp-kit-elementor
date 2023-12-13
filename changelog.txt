@@ -1,3 +1,9 @@
+= 1.0.2 - 2023-12-13 =
+
+### Updated
+
+Updated: Text domain in all theme files
+
 = 1.0.1 - 2023-12-11 =
 
 ### Fixed
