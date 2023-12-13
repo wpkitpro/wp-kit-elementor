@@ -1,56 +1,56 @@
 = 1.0.2 - 2023-12-13 =
 
 ### Updated
+— Update image license details in readme
+— Text domain in all theme files
 
-Updated: Text domain in all theme files
+### Removed
+— Delete README.md file from wp-kit-elementor theme
 
 = 1.0.1 - 2023-12-11 =
 
 ### Fixed
-
-* Fixed: text domain in 404.php
-* Fixed: 'esc_html_e' to 'esc_attr__' in header.php
+— Text domain in 404.php
+— 'esc_html_e' to 'esc_attr__' in header.php
 
 ### Updated
-
-* Updated: Update README files and package details for WPKit Elementor theme
-* Updated: Update SDK class with improved exception handling
+— Updated: Update README files and package details for WPKit Elementor theme
+— Updated: Update SDK class with improved exception handling
 
 = 1.0.0 - 2023-12-03 =
-
-* Tweak: Update theme name and version, refine bundle script
-* Updated: Update theme version and fix CSS selectors
-* Tweak: Refactor wpkit-elementor theme index template
-* Tweak: Remove unused template parts from theme
-* Tweak: Extend page rendering in wpkit-elementor theme
-* Fixed: Fix typo in class name in style.scss
-* Fixed: Refactor CSS class name in style.scss
-* Tweak: Update dependencies in package.json & package-lock.json
-* Tweak: Update package.json with bundling and translation tasks
-* Tweak: Update template structure and improve accessibility in page.php
-* Tweak: Update skip link target and change content wrapper in header.php
-* Tweak: Rename package name and change main content wrapper in footer.php
-* Tweak: Update main content accessibility and documentation
-* Added: Add comments.php for WP Kit Elementor theme
-* Tweak: Update theme information in style.css
-* Removed: Remove unused custom template in WPKit
-* Added: Add sidebar.php to avoid Deprecated Message
-* Tweak: Rename LICENSE.md to LICENSE and update copyright
-* Tweak: Add footer documentation to footer.php
-* Tweak: Update Author URI and theme description in style.scss
-* Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
-* Tweak: Update theme styling and URI information
-* Tweak: Updated footer template for improved accessibility and branding
-* Tweak: Updated header template for improved accessibility
-* Tweak: Refactor header template and enhance site branding
-* Tweak: Add feature to display temperature in Fahrenheit
-* Tweak: Remove unused js files from WPKit Elementor theme
-* Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
-* Tweak: Refactored WPKit Elementor theme configurations
-* Tweak: Updated functions.php with theme support and basic setups
-* Tweak: Remove setup.php and template-functions.php
-* Tweak: Refactored file paths and updated theme details
-* Tweak: Remove excessive CSS styling from WPKit theme
+— Tweak: Update theme name and version, refine bundle script
+— Updated: Update theme version and fix CSS selectors
+— Tweak: Refactor wpkit-elementor theme index template
+— Tweak: Remove unused template parts from theme
+— Tweak: Extend page rendering in wpkit-elementor theme
+— Fixed: Fix typo in class name in style.scss
+— Fixed: Refactor CSS class name in style.scss
+— Tweak: Update dependencies in package.json & package-lock.json
+— Tweak: Update package.json with bundling and translation tasks
+— Tweak: Update template structure and improve accessibility in page.php
+— Tweak: Update skip link target and change content wrapper in header.php
+— Tweak: Rename package name and change main content wrapper in footer.php
+— Tweak: Update main content accessibility and documentation
+— Added: Add comments.php for WP Kit Elementor theme
+— Tweak: Update theme information in style.css
+— Removed: Remove unused custom template in WPKit
+— Added: Add sidebar.php to avoid Deprecated Message
+— Tweak: Rename LICENSE.md to LICENSE and update copyright
+— Tweak: Add footer documentation to footer.php
+— Tweak: Update Author URI and theme description in style.scss
+— Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
+— Tweak: Update theme styling and URI information
+— Tweak: Updated footer template for improved accessibility and branding
+— Tweak: Updated header template for improved accessibility
+— Tweak: Refactor header template and enhance site branding
+— Tweak: Add feature to display temperature in Fahrenheit
+— Tweak: Remove unused js files from WPKit Elementor theme
+— Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
+— Tweak: Refactored WPKit Elementor theme configurations
+— Tweak: Updated functions.php with theme support and basic setups
+— Tweak: Remove setup.php and template-functions.php
+— Tweak: Refactored file paths and updated theme details
+— Tweak: Remove excessive CSS styling from WPKit theme
 
 = 0.0.1 - 2023-12-03 =
-* Initial Public Release
+— Initial Public Release
