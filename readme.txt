@@ -1,31 +1,83 @@
 === WP Kit Elementor ===
 
 Author: WP Kit
-Requires at least: WordPress 5.9
-Tested up to: WordPress 6.4.1
 Version: 1.0.2
-License: GPLv3 or later
+Requires at least: 5.9
+Requires PHP: 7.4
+Tested up to: 6.4.2
+License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
 == Description ==
 
-WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WPKit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WPKit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
+WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
 
 == Copyright ==
 
-WP Kit Elementor, Copyright 2023 wpkit.pro
-It is distributed under the terms of the GNU GPL
+This theme, like WordPress, is distributed under the terms of GPL.
+Use it as your springboard to building a site with ***Elementor***.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+WP Kit Elementor bundles the following third-party resources:
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+Font for theme screenshot
+License: SIL Open Font License, Version 1.1 - 26 February 2007.
+Source: https://fonts.google.com/specimen/Poppins
 
-== Image ==
-Screenshot image from https://www.freepik.com
+Image for theme screenshot, Copyright Ashan Randika
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://stocksnap.io/photo/4B83RD7BV9
+
+== Changelog ==
+
+= 1.0.2 - 2023-12-22 =
+* Updated: Update theme metadata and author details
+* Updated: Screenshot image license details in readme
+* Updated: Text domain in all theme files
+* Removed: README.md file from wp-kit-elementor theme
+
+= 1.0.1 - 2023-12-11 =
+* Update version number in wpkit-elementor theme
+* Update README files and package details for WPKit Elementor theme
+* Update SDK class with improved exception handling
+* Fixed: Text domain in 404.php
+* Fixed: 'esc_html_e' to 'esc_attr__' in header.php
+
+= 1.0.0 - 2023-12-03 =
+* Tweak: Update theme name and version, refine bundle script
+* Updated: Update theme version and fix CSS selectors
+* Tweak: Refactor wpkit-elementor theme index template
+* Tweak: Remove unused template parts from theme
+* Tweak: Extend page rendering in wpkit-elementor theme
+* Fixed: Fix typo in class name in style.scss
+* Fixed: Refactor CSS class name in style.scss
+* Tweak: Update dependencies in package.json & package-lock.json
+* Tweak: Update package.json with bundling and translation tasks
+* Tweak: Update template structure and improve accessibility in page.php
+* Tweak: Update skip link target and change content wrapper in header.php
+* Tweak: Rename package name and change main content wrapper in footer.php
+* Tweak: Update main content accessibility and documentation
+* Added: Add comments.php for WP Kit Elementor theme
+* Tweak: Update theme information in style.css
+* Removed: Remove unused custom template in WPKit
+* Added: Add sidebar.php to avoid Deprecated Message
+* Tweak: Rename LICENSE.md to LICENSE and update copyright
+* Tweak: Add footer documentation to footer.php
+* Tweak: Update Author URI and theme description in style.scss
+* Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
+* Tweak: Update theme styling and URI information
+* Tweak: Updated footer template for improved accessibility and branding
+* Tweak: Updated header template for improved accessibility
+* Tweak: Refactor header template and enhance site branding
+* Tweak: Add feature to display temperature in Fahrenheit
+* Tweak: Remove unused js files from WPKit Elementor theme
+* Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
+* Tweak: Refactored WPKit Elementor theme configurations
+* Tweak: Updated functions.php with theme support and basic setups
+* Tweak: Remove setup.php and template-functions.php
+* Tweak: Refactored file paths and updated theme details
+* Tweak: Remove excessive CSS styling from WPKit theme
+
+= 0.0.1 - 2023-12-03 =
+* Initial Public Release
+
