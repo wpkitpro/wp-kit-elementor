@@ -1,8 +1,13 @@
 <?php
 /**
  * Template functions and definitions
+ *
+ * @package WpKitElementor
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 function setup() {
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
