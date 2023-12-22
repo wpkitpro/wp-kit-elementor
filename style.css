@@ -10,11 +10,24 @@ Requires PHP: 7.4
 Tested up to: 6.4.2
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: wpkit-elementor
+Text Domain: wp-kit-elementor
 Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
-WP Kit Elementor Team, (C) 2023 wpkit.pro
+WpKitElementor (C) 2023 wpkit.pro
 */
+/**
+ * DO NOT CHANGE THIS FILE!
+ * To override any of the settings in this section, add your styling code in the custom directory.
+ * Loading first in the style.scss & style-editor.scss
+ */
+/*
+ * Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
+ */
+/**
+ * Document basic styling
+ * DO NOT CHANGE THIS FILE!
+ * To override any of the settings in this section, add your styling code in the custom directory.
+ */
 :root {
   --global--body-color: #212529;
   --global--body-bg: #ffffff;
