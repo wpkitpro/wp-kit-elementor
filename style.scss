@@ -663,7 +663,7 @@ dl, dt, dd, ol, ul, li {
 	.post-footer {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		padding: 1.25rem 0; /* 20/16 */
 		border-bottom: 1px solid #e8e8e8;
 	}
