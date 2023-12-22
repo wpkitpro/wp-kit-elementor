@@ -24,13 +24,24 @@ Font for theme screenshot
 License: SIL Open Font License, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
-Image for theme screenshot, Copyright Ashan Randika
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/4B83RD7BV9
+Image for theme screenshot
+Author: Ashan Randika
+License: Standard License
+License URI: https://support.shutterstock.com/s/article/Standard-License-vs-Enhanced-License
+Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-shop-order-1990661036
 
 == Changelog ==
 
 = 1.0.2 - 2023-12-22 =
+* New: Added editor style support to wp-kit-elementor theme
+* New: Added editor style support to wp-kit-elementor theme
+* New: Create header template in wp-kit-elementor theme
+* Tweak: Update theme screenshot and enhance `wp-kit-elementor` theme
+* Tweak: Modify alignment in post-footer of wp-kit-elementor theme
+* Tweak: Updated 'bundle' script in wp-kit-elementor theme
+* Tweak: Update package name and improve 404 template in wp-kit-elementor theme
+* Fixed: Fixed style files and add instructions in wp-kit-elementor theme
+* Removed: Remove changelog.txt from wp-kit-elementor theme
 * Updated: Update theme metadata and author details
 * Updated: Screenshot image license details in readme
 * Updated: Text domain in all theme files
