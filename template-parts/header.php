@@ -1,6 +1,8 @@
 <?php
 /**
- * Displays the site header.
+ * The template for displaying header.
+ *
+ * @package WpKitElementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -17,7 +19,8 @@ $blog_description = get_bloginfo( 'description', 'display' );
 		<?php elseif ( $blog_name ): ?>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-				   title="<?php echo esc_attr__( 'Home', 'wp-kit-elementor' ); ?>"
+				   title="<?php echo esc_attr__( 'Home',
+					   'wp-kit-elementor' ); ?>"
 				   rel="home"
 				>
 					<?php echo $blog_name; ?>

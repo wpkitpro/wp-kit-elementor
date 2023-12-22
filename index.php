@@ -2,7 +2,7 @@
 /**
  * The main template file
  *
- * @package WPKitElementor
+ * @package WpKitElementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

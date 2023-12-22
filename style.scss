@@ -1,21 +1,34 @@
 /*
 Theme Name: WP Kit Elementor
 Theme URI: http://wpkit.pro/wpkit-elementor
-Author: WPKit
+Author: WP Kit
 Author URI: https://wpkit.pro/
-Description: WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WPKit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WPKit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
-Requires at least: 5.9
-Tested up to: 6.1
-Requires PHP: 7.4
+Description: WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
 Version: 1.0.2
+Requires at least: 5.9
+Requires PHP: 7.4
+Tested up to: 6.4.2
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: wpkit-elementor
+Text Domain: wp-kit-elementor
 Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
-WPKit Elementor Team, (C) 2023 wpkit.pro
+WpKitElementor (C) 2023 wpkit.pro
 */
 
+/**
+ * DO NOT CHANGE THIS FILE!
+ * To override any of the settings in this section, add your styling code in the custom directory.
+ * Loading first in the style.scss & style-editor.scss
+ */
+/*
+ * Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
+ */
+/**
+ * Document basic styling
+ * DO NOT CHANGE THIS FILE!
+ * To override any of the settings in this section, add your styling code in the custom directory.
+ */
 :root {
 	--global--body-color: #212529;
 	--global--body-bg: #ffffff;
@@ -23,7 +36,7 @@ WPKit Elementor Team, (C) 2023 wpkit.pro
 	--global--link-hover-color: #333366;
 }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! Based on Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;

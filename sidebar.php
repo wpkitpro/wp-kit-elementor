@@ -2,7 +2,7 @@
 /**
  * The template for displaying sidebar.
  *
- * @package WPKitElementor
+ * @package WpKitElementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -19,6 +19,7 @@ mix
 
 mix
   .sass('style.scss', 'style.css')
+  .sass('style-editor.scss', 'style-editor.css')
   .options({
     processCssUrls: false,
   });

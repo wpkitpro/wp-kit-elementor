@@ -6,8 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package WPKitElementor
- * @since WPKitElementor 1.0
+ * @package WpKitElementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
