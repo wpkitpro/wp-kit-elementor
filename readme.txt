@@ -32,8 +32,10 @@ Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-
 
 == Changelog ==
 
+= 1.0.3 - 2023-12-25 =
+* Fixed: Header template part reference. The '.php' extension was removed
+
 = 1.0.2 - 2023-12-22 =
-* New: Added editor style support to wp-kit-elementor theme
 * New: Added editor style support to wp-kit-elementor theme
 * New: Create header template in wp-kit-elementor theme
 * Tweak: Update theme screenshot and enhance `wp-kit-elementor` theme
