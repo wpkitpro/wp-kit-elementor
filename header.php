@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</a>
 
 
-	<?php get_template_part( 'template-parts/header.php' ); ?>
+	<?php get_template_part( 'template-parts/header' ); ?>
 
 	<div id="content" class="site-content">
 
