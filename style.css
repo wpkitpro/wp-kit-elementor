@@ -676,7 +676,6 @@ nav.primary-navigation {
 }
 nav.primary-navigation a, nav.primary-navigation span {
   padding: 0.3125rem 0.9375rem; /* 5/16 */ /* 15/16 */
-  border: 1px solid #e8e8e8;
 }
 
 .footer-copyright {
