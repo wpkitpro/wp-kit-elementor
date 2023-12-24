@@ -33,7 +33,7 @@ Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-
 == Changelog ==
 
 = 1.0.3 - 2023-12-25 =
-* Fixed: Header template part reference. The '.php' extension was removed
+* Fixed: Header template part reference the '.php' extension was removed
 
 = 1.0.2 - 2023-12-22 =
 * New: Added editor style support to wp-kit-elementor theme
