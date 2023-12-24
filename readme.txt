@@ -33,6 +33,7 @@ Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-
 == Changelog ==
 
 = 1.0.3 - 2023-12-25 =
+* Fixed: Remove border style from nav links in wp-kit-elementor theme
 * Fixed: Header template part reference the '.php' extension was removed
 
 = 1.0.2 - 2023-12-22 =
