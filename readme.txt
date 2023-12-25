@@ -1,13 +1,10 @@
 === WP Kit Elementor ===
-
 Author: WP Kit
-Version: 1.0.2
-Requires at least: 5.9
-Requires PHP: 7.4
+Requires at least: 6.4
 Tested up to: 6.4.2
+Requires PHP: 7.4
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: blog, e-commerce, one-column, custom-background, custom-colors, full-width-template, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
 == Description ==
 
@@ -15,24 +12,31 @@ WP Kit Elementor is a versatile and streamlined WordPress theme meticulously cra
 
 == Copyright ==
 
-This theme, like WordPress, is distributed under the terms of GPL.
-Use it as your springboard to building a site with ***Elementor***.
+WP Kit Elementor WordPress Theme, (C) 2023 wpkit.pro
+WP Kit Elementor is distributed under the terms of the GNU GPL.
 
-WP Kit Elementor bundles the following third-party resources:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Font for theme screenshot
-License: SIL Open Font License, Version 1.1 - 26 February 2007.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+== Font for theme screenshot ==
+License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
-Image for theme screenshot
-Author: Ashan Randika
-License: Standard License
-License URI: https://support.shutterstock.com/s/article/Standard-License-vs-Enhanced-License
+== Image for theme screenshot ==
+License: Standard https://support.shutterstock.com/s/article/Standard-License-vs-Enhanced-License
 Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-shop-order-1990661036
 
 == Changelog ==
 
 = 1.0.3 - 2023-12-25 =
+* Update: Update WP Kit Elementor theme details
 * Fixed: Remove border style from nav links in wp-kit-elementor theme
 * Fixed: Header template part reference the '.php' extension was removed
 
