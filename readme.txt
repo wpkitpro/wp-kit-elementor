@@ -1,9 +1,9 @@
 === WP Kit Elementor ===
-Author: WP Kit
+Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
 Requires PHP: 7.4
-License: GNU General Public License v3 or later.
+License:  GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
@@ -29,13 +29,20 @@ GNU General Public License for more details.
 License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
+Image for theme screenshot, Credit Garegin Hakobyan
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://stocksnap.io/license
+Source: https://stocksnap.io/photo/4B83RD7BV9
+
 == Image for theme screenshot ==
 License: Standard https://support.shutterstock.com/s/article/Standard-License-vs-Enhanced-License
 Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-shop-order-1990661036
 
 == Changelog ==
 
-= 1.0.3 - 2023-12-25 =
+= 1.0.3 - 2023-12-27 =
+* Update: WP Kit Elementor theme requirements and license info
+* Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
 * Fixed: Remove border style from nav links in wp-kit-elementor theme
 * Fixed: Header template part reference the '.php' extension was removed
