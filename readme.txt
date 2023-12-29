@@ -3,7 +3,7 @@ Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
 Requires PHP: 7.4
-License:  GNU General Public License v3 or later.
+License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
@@ -24,14 +24,14 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Font for theme screenshot ==
+Font for theme screenshot
 License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
 Image for theme screenshot, Credit Garegin Hakobyan
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://stocksnap.io/license
-Source: https://stocksnap.io/photo/4B83RD7BV9
+Source: ''
 
 == Changelog ==
 
