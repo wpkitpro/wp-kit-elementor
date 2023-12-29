@@ -1,5 +1,5 @@
 === WP Kit Elementor ===
-Author: WP Kit
+Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
 Requires PHP: 7.4
@@ -11,7 +11,6 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
 
 == Copyright ==
-
 WP Kit Elementor WordPress Theme, (C) 2023 wpkit.pro
 WP Kit Elementor is distributed under the terms of the GNU GPL.
 
@@ -25,17 +24,20 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Font for theme screenshot ==
+Font for theme screenshot
 License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
-== Image for theme screenshot ==
-License: Standard https://support.shutterstock.com/s/article/Standard-License-vs-Enhanced-License
-Source: https://www.shutterstock.com/image-vector/online-shopping-store-concept-shop-order-1990661036
+Image for theme screenshot, Credit Garegin Hakobyan
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://stocksnap.io/license
+Source: ''
 
 == Changelog ==
 
-= 1.0.3 - 2023-12-25 =
+= 1.0.3 - 2023-12-27 =
+* Update: WP Kit Elementor theme requirements and license info
+* Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
 * Fixed: Remove border style from nav links in wp-kit-elementor theme
 * Fixed: Header template part reference the '.php' extension was removed
