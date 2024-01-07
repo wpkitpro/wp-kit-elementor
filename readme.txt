@@ -45,7 +45,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 = 1.0.4 - 2024-01-07 =
 * Update: Theme metadata in style.css and readme file
 * Tweak: Change attribution text in readme.txt
-* Update: theme version and image for theme screenshot
+* Update: Theme version and image for theme screenshot
 
 = 1.0.3 - 2023-12-27 =
 * Update: license and source information in readme
