@@ -21,7 +21,7 @@
 		"watch": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
 		"lint:scss": "stylelint **/*.scss",
 		"lint-fix:scss": "stylelint **/*.scss --fix",
-		"bundle": "dir-archiver --src . --dest ../wp-kit-elementor.zip --exclude .DS_Store node_modules .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json style.scss style-editor.scss webpack.mix.js yarn.lock package-lock.json .git .gitattributes .gitignore README.md"
+		"bundle": "dir-archiver --src . --dest ../wp-kit-elementor.zip --exclude .DS_Store node_modules .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json style.scss style-editor.scss webpack.mix.js yarn.lock package-lock.json .git .gitattributes .gitignore README.md LICENSE"
 	},
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^5.31.0",

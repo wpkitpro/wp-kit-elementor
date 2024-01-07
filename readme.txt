@@ -43,6 +43,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4 - 2024-01-07 =
+* New: Add LICENSE file to WP Kit Elementor Theme
 * Tweak: Correct product name reference in readme
 * Tweak: Change attribution text in readme.txt
 * Update: webpack.mix.js and package-lock.json
