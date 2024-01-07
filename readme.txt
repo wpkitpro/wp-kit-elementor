@@ -1,10 +1,13 @@
 === WP Kit Elementor ===
+
 Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
 Requires PHP: 7.4
-License: GNU General Public License v3 or later.
+License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+A lightweight and minimalist WordPress theme for Elementor site builder.
 
 == Description ==
 
@@ -40,6 +43,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4 - 2024-01-07 =
+* Update: Theme metadata in style.css and readme file
 * Tweak: Change attribution text in readme.txt
 * Update: theme version and image for theme screenshot
 
