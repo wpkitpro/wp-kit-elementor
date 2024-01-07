@@ -297,6 +297,7 @@ template {
   *, *:before, *:after {
     background: transparent !important;
     color: #000;
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -390,8 +391,7 @@ button,
   color: var(--global--link-color);
   text-align: center;
   white-space: nowrap;
-  -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   background-color: transparent;
   border: 1px solid var(--global--link-color);
   padding: 0.5rem 1rem; /* 8/16 */ /* 16/16 */
@@ -566,8 +566,7 @@ dl, dt, dd, ol, ul, li {
 
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
-          clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
   position: absolute !important;
   white-space: nowrap;
   height: 1px;
@@ -688,3 +687,5 @@ nav.primary-navigation a, nav.primary-navigation span {
 .kit-theme-post .post-title a {
   text-decoration: none;
 }
+
+/*# sourceMappingURL=style.css.map */
