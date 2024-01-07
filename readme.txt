@@ -40,6 +40,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4 - 2024-01-07 =
+* Tweak: Change attribution text in readme.txt
 * Update: theme version and image for theme screenshot
 
 = 1.0.3 - 2023-12-27 =
