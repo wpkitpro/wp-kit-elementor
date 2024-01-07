@@ -29,13 +29,16 @@ License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
 Image for theme screenshot, Credit Garegin Hakobyan
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://stocksnap.io/license
-Source: ''
+
+Hand-drawn illustrations used are created by WP Kit Team and released under Creative Commons ( CC0 ) License.
+
+Source: https://wpkit.pro/wp-content/uploads/wporg-theme-images/illustration.png
 
 == Changelog ==
 
 = 1.0.3 - 2023-12-27 =
+* Update: license and source information in readme
+* Update: license and source information in readme
 * Update: WP Kit Elementor theme requirements and license info
 * Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
