@@ -28,13 +28,19 @@ Font for theme screenshot
 License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
-Image for theme screenshot, Credit Garegin Hakobyan
+Font Awesome icons for theme screenshot
+License: SIL Open Font License, version 1.1.
+Source: https://fontawesome.com/v6.5.1
 
-Hand-drawn illustrations used are created by WP Kit Team and released under Creative Commons ( CC0 ) License.
-
-Source: https://wpkit.pro/wp-content/uploads/wporg-theme-images/illustration.png
+Image for theme screenshot, Credit Bango Renders
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://stocksnap.io/license
+Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
+
+= 1.0.4 - 2024-01-07 =
+* Update: theme version and image for theme screenshot
 
 = 1.0.3 - 2023-12-27 =
 * Update: license and source information in readme
