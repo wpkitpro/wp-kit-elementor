@@ -11,7 +11,7 @@ A lightweight and minimalist WordPress theme for Elementor site builder.
 
 == Description ==
 
-WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
+WpKit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
 
 == Copyright ==
 WP Kit Elementor WordPress Theme, (C) 2023 wpkit.pro
@@ -43,8 +43,10 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4 - 2024-01-07 =
-* Update: Theme metadata in style.css and readme file
+* Tweak: Correct product name reference in readme
 * Tweak: Change attribution text in readme.txt
+* Update: WP Kit Elementor theme's style.css
+* Update: Theme metadata in style.css and readme file
 * Update: Theme version and image for theme screenshot
 
 = 1.0.3 - 2023-12-27 =
