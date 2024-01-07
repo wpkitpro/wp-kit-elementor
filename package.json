@@ -1,8 +1,10 @@
 {
 	"name": "wp-kit-elementor",
-	"version": "2.0.0",
-	"description": "WordPress starter theme with a modern development workflow",
-	"repository": "https://github.com/gikwp/wpkit",
+	"slug": "wp-kit-elementor",
+	"homepage": "https://wpkit.pro",
+	"version": "1.0.4",
+	"description": "A sample WordPress theme for Elementor page builder.",
+	"repository": "https://github.com/wpkitpro/wp-kit-elementor.git",
 	"author": "wpkit",
 	"license": "GNU General Public License v3 or later",
 	"private": true,
@@ -13,6 +15,7 @@
 		"node": ">=16.19.0"
 	},
 	"scripts": {
+		"update-version": "node .github/scripts/update-version-in-files.js",
 		"start": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
 		"build:style": "sass assets/sass/style.scss:style.css --style=expanded --source-map && sass assets/sass/style.scss:style.min.css --style compressed --no-source-map",
 		"build:style-editor": "sass assets/sass/style-editor.scss:style-editor.css --style=expanded --source-map && sass assets/sass/style-editor.scss:style-editor.min.css --style compressed --no-source-map",
