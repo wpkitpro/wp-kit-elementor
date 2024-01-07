@@ -45,6 +45,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 = 1.0.4 - 2024-01-07 =
 * Tweak: Correct product name reference in readme
 * Tweak: Change attribution text in readme.txt
+* Update: webpack.mix.js and package-lock.json
 * Update: WP Kit Elementor theme's style.css
 * Update: Theme metadata in style.css and readme file
 * Update: Theme version and image for theme screenshot
