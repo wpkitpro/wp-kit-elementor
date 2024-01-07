@@ -38,7 +38,6 @@ Source: https://wpkit.pro/wp-content/uploads/wporg-theme-images/illustration.png
 
 = 1.0.3 - 2023-12-27 =
 * Update: license and source information in readme
-* Update: license and source information in readme
 * Update: WP Kit Elementor theme requirements and license info
 * Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
