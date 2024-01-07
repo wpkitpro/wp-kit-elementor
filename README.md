@@ -11,6 +11,6 @@ crafted to integrate seamlessly with the Elementor page builder plugin. This fre
 users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance,
 [WP Kit Elementor](https://wpkit.pro/themes/wpkit-elementor) establishes a robust groundwork, empowering users to fashion
 distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric
-simplicity and adaptable features, [WP Kit Elementor]([WpKit Elementor](https://wpkit.pro/themes/wpkit-elementor)) stands
+simplicity and adaptable features, [WP Kit Elementor](https://wpkit.pro/themes/wpkit-elementor) stands
 out as an excellent choice for both novices and seasoned web
 creators alike.
