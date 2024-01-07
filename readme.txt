@@ -32,7 +32,7 @@ Font Awesome icons for theme screenshot
 License: SIL Open Font License, version 1.1.
 Source: https://fontawesome.com/v6.5.1
 
-Image for theme screenshot, Credit Bango Renders
+Image for theme screenshot, Copyright Bango Renders
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://stocksnap.io/license
 Source: https://stocksnap.io/photo/BHIL9FV6RK
