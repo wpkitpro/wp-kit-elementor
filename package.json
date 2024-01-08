@@ -1,21 +1,17 @@
 {
-	"name": "wp-kit-elementor",
-	"slug": "wp-kit-elementor",
+	"name": "wp-kit-elementor-theme",
+	"slug": "wp-kit-elementor-theme",
 	"homepage": "https://wpkit.pro",
 	"description": "A sample WordPress theme for Elementor page builder.",
 	"version": "1.0.4",
 	"private": true,
 	"scripts": {
 		"update-version": "node .github/scripts/update-version-in-files.js",
-		"start": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
-		"build:style": "sass assets/sass/style.scss:style.css --style=expanded --source-map && sass assets/sass/style.scss:style.min.css --style compressed --no-source-map",
-		"build:style-editor": "sass assets/sass/style-editor.scss:style-editor.css --style=expanded --source-map && sass assets/sass/style-editor.scss:style-editor.min.css --style compressed --no-source-map",
-		"build:stylelint": "stylelint **/*.css --fix --config .stylelintrc-css.json",
-		"build": "run-s \"build:*\"",
-		"watch": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
-		"lint:scss": "stylelint **/*.scss",
-		"lint-fix:scss": "stylelint **/*.scss --fix",
-		"bundle": "dir-archiver --src . --dest ../wp-kit-elementor.zip --exclude .DS_Store node_modules .editorconfig .eslintrc.js .gitattributes .gitignore .prettierrc .stylelintrc.json mix-manifest.json package.json style.scss style-editor.scss webpack.mix.js yarn.lock package-lock.json .git .gitattributes .gitignore README.md LICENSE"
+		"build:prod": "grunt default --environment=production && WP_SRC_DIRECTORY=$(pwd) wp-scripts build --env=production",
+		"build:dev": "concurrently \"grunt default\" \"webpack --env=development\"",
+		"build:dev:watch": "concurrently \"grunt default watch\" \"webpack --env=local\"",
+		"clean:build": "rimraf build && rimraf wp-kit-elementor",
+		"zip": "npm run clean:build && npm run build:prod && mv build wp-kit-elementor && zip -r wp-kit-elementor.$npm_package_version.zip wp-kit-elementor/*"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.23.7",
@@ -33,7 +29,6 @@
 		"concurrently": "^8.2.2",
 		"copy-webpack-plugin": "^11.0.0",
 		"cssnano": "^6.0.3",
-		"dir-archiver": "^2.1.0",
 		"eslint": "^8.56.0",
 		"eslint-config-wordpress": "^2.0.0",
 		"eslint-plugin-babel": "^5.3.1",
@@ -63,7 +58,7 @@
 		"@babel/plugin-transform-modules-commonjs": "^7.23.3",
 		"@babel/plugin-transform-runtime": "^7.23.7",
 		"@lodder/grunt-postcss": "^3.1.1",
-		"grunt-autoprefixer": "^3.0.4",
+		"grunt-autoprefixer": "^3.0.0",
 		"grunt-cssnano": "^3.0.0"
 	}
 }
