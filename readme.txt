@@ -42,7 +42,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.4 - 2024-01-08 =
+= 1.0.4-beta1 - 2024-01-08 =
 * Update: Theme style files in wp-kit-elementor
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
