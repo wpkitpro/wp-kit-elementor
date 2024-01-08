@@ -19,6 +19,6 @@ Designed to support standard WordPress features, [WP Kit Elementor](https://wpki
 the flexibility to extend functionality through the use of child themes. Users can elevate customization by
 incorporating custom styles, achieved either through Elementor, a child theme, or by utilizing external plugins. For
 those looking to delve deeper into customization options, a visit to
-the [Elementor developer docs](https://elementor.com/developers/) provides a wealth of resources and guidance. Elevate
+the [Elementor developer docs](https://developers.elementor.com/) provides a wealth of resources and guidance. Elevate
 your website's design possibilities with [WP Kit Elementor](https://wpkit.pro/themes/wpkit-elementor/) – where
 simplicity meets versatility.
