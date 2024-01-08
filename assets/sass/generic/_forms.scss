@@ -1,0 +1,87 @@
+/**
+ * Forms styling
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	width: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+select {
+	display: block;
+}
+
+label {
+	display: inline-block;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+	width: 100%;
+	border: solid 1px #666666;
+	border-radius: 3px;
+	padding: 0.5rem 1rem; /* 8/16 *//* 16/16 */
+	transition: all 300ms;
+
+	&:focus {
+		border-color: #333333;
+		outline: 0 none;
+	}
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type="button"],
+[type="submit"] {
+	display: inline-block;
+	font-weight: 400;
+	color: $link-color;
+	text-align: center;
+	white-space: nowrap;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid $link-color;
+	padding: 0.5rem 1rem; /* 8/16 *//* 16/16 */
+	font-size: 1rem; /* 16/16 */
+	border-radius: 3px;
+	transition: all 300ms;
+
+	&:focus {
+		outline: 5px auto -webkit-focus-ring-color;
+	}
+
+	&:hover {
+		color: #ffffff;
+		background-color: $link-hover-color;
+		text-decoration: none;
+	}
+
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+}
