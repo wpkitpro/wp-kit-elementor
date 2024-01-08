@@ -1,13 +1,11 @@
 /*
 Theme Name: WP Kit Elementor
-Theme URI: http://wpkit.pro/wpkit-elementor
-Author: WP Kit
-Author URI: https://wpkit.pro/
+Author:  WP Kit
 Description: WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 6.4
-Requires PHP: 7.4
 Tested up to: 6.4.2
+Requires PHP: 7.4
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: wp-kit-elementor
@@ -17,6 +15,7 @@ WP Kit Elementor WordPress Theme, (C) 2023 wpkit.pro
 WP Kit Elementor is distributed under the terms of the GNU GPL.
 */
 
+
 /**
  * DO NOT CHANGE THIS FILE!
  * To override any of the settings in this section, add your styling code in the custom directory.
@@ -25,6 +24,10 @@ WP Kit Elementor is distributed under the terms of the GNU GPL.
 /*
  * Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
  */
+body {
+	background-color: #0A1A3D;
+}
+
 /**
  * Document basic styling
  * DO NOT CHANGE THIS FILE!

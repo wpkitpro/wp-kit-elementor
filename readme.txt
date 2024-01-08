@@ -1,14 +1,17 @@
 === WP Kit Elementor ===
+
 Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
 Requires PHP: 7.4
-License: GNU General Public License v3 or later.
+License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+A lightweight and minimalist WordPress theme for Elementor site builder.
 
 == Description ==
 
-WP Kit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
+WpKit Elementor is a versatile and streamlined WordPress theme meticulously crafted to integrate seamlessly with the Elementor page builder plugin. This free and open-source theme is tailored for users seeking a nimble, user-friendly, and highly customizable website. Engineered for optimal performance, WP Kit Elementor establishes a robust groundwork, empowering users to fashion distinctive designs effortlessly through the intuitive Elementor drag-and-drop site builder. With its user-centric simplicity and adaptable features, WP Kit Elementor stands out as an excellent choice for both novices and seasoned web creators alike.
 
 == Copyright ==
 WP Kit Elementor WordPress Theme, (C) 2023 wpkit.pro
@@ -28,13 +31,29 @@ Font for theme screenshot
 License: SIL Open Font, Version 1.1 - 26 February 2007.
 Source: https://fonts.google.com/specimen/Poppins
 
-Image for theme screenshot, Credit Garegin Hakobyan
+Font Awesome icons for theme screenshot
+License: SIL Open Font License, version 1.1.
+Source: https://fontawesome.com/v6.5.1
 
-Hand-drawn illustrations used are created by WP Kit Team and released under Creative Commons ( CC0 ) License.
-
-Source: https://wpkit.pro/wp-content/uploads/wporg-theme-images/illustration.png
+Image for theme screenshot, Copyright Bango Renders
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://stocksnap.io/license
+Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
+
+= 1.0.4 - 2024-01-08 =
+* Update: Theme style files in wp-kit-elementor
+* New: Added new scripts file mode to project
+* New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
+* New: Add LICENSE file to WP Kit Elementor Theme
+* Tweak: Correct product name reference in readme
+* Tweak: Change attribution text in readme.txt
+* Update: ESLint rules for wp-kit-elementor theme
+* Update: webpack.mix.js and package-lock.json
+* Update: WP Kit Elementor theme's style.css
+* Update: Theme metadata in style.css and readme file
+* Update: Theme version and image for theme screenshot
 
 = 1.0.3 - 2023-12-27 =
 * Update: license and source information in readme
