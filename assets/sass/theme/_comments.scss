@@ -1,0 +1,35 @@
+/**
+ * Comments styles
+ */
+.commentslist {
+	list-style-type: none;
+	padding: 0;
+
+	.children {
+		list-style-type: none;
+	}
+
+	li {
+		padding: 1.25rem; /* 20/16 */
+		margin-top: 1.25rem; /* 20/16 */
+		margin-bottom: 1.25rem; /* 20/16 */
+		border: 1px solid #e8e8e8;
+	}
+
+	img {
+		margin-right: .625rem; /* 10/16 */
+	}
+
+	.reply {
+		display: inline-block;
+		padding: .3125rem .9375rem; /* 5/16 *//* 15/16 */
+		border: 1px solid var(--global--link-color);
+	}
+}
+
+.comment-form-comment {
+	input,
+	textarea {
+		border-color: #e8e8e8;
+	}
+}
