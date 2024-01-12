@@ -49,6 +49,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
 * New: Add LICENSE file to WP Kit Elementor Theme
+* Tweak: Replace CSS variables with SCSS variables
+* Tweak: Reorganize SCSS imports and add site logo styles
 * Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
 * Tweak: The _general.scss file was moved from the 'generic' directory to the 'theme' directory.
 * Tweak: Remove unnecessary white spaces in _reset.scss 
