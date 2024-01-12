@@ -43,12 +43,20 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4-beta1 - 2024-01-08 =
-* Update: Theme style files in wp-kit-elementor
+* New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
+* New: Add style code for header, footer, comments, and posts/pages
+* New: Add theme.scss and related Sass files
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
 * New: Add LICENSE file to WP Kit Elementor Theme
+* Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
+* Tweak: The _general.scss file was moved from the 'generic' directory to the 'theme' directory.
+* Tweak: Remove unnecessary white spaces in _reset.scss 
+* Tweak: Moved _variables.scss and _mixins.scss from generic to abstracts
+* Tweak: Implement styling for various UI components in WP Kit Elementor theme
 * Tweak: Correct product name reference in readme
 * Tweak: Change attribution text in readme.txt
+* Update: Theme style files in wp-kit-elementor
 * Update: ESLint rules for wp-kit-elementor theme
 * Update: webpack.mix.js and package-lock.json
 * Update: WP Kit Elementor theme's style.css
