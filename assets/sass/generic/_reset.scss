@@ -59,10 +59,10 @@ p {
 // Link
 a {
 	text-decoration-thickness: 1px;
-	color: var(--global--link-color);
+	color: $link-color;
 
 	&:hover, &:active {
-		color: var(--global--link-hover-color);
+		color: $link-hover-color;
 	}
 
 	&:not([href]):not([tabindex]),
