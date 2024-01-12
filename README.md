@@ -2,7 +2,7 @@
 
 A lightweight and minimalist WordPress theme for Elementor site builder.
 
-<p><a href="https://wpkit.pro/themes/wpkit-elementor"><img src="https://i0.wp.com/themes.svn.wordpress.org/wp-kit-elementor/1.0.3/screenshot.png?w=600&strip=all" alt="WP Kit Elementor"></a></p>
+<p><a href="https://wpkit.pro/themes/wpkit-elementor"><img src="https://wpkit.pro/wp-content/uploads/wporg-theme-images/screenshot.png?w=600&strip=all" alt="WP Kit Elementor"></a></p>
 
 ## Description
 

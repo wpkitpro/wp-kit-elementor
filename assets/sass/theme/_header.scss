@@ -1,0 +1,17 @@
+/**
+ * Header styles
+ */
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.875rem; /* 30/16 */
+	padding: 1.25rem 0; /* 20/16 */
+}
+
+.site-logo {
+	h1,
+	.site-description {
+		margin: 0;
+	}
+}
