@@ -84,6 +84,7 @@ add_action( 'after_setup_theme', 'setup' );
 
 function scripts() {
 	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+
 	// Theme Stylesheet
 	wp_enqueue_style(
 		'wp-kit-elementor',
