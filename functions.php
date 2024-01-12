@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define('WPKIT_ELEMENTOR_VERSION', '1.0.4');
+define( 'WPKIT_ELEMENTOR_VERSION', '1.0.4' );
 
 function setup() {
 	// Add default posts and comments RSS feed links to head
@@ -83,14 +83,26 @@ function setup() {
 add_action( 'after_setup_theme', 'setup' );
 
 function scripts() {
+	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 	// Theme Stylesheet
-	wp_enqueue_style( 'wp-kit-elementor', get_stylesheet_uri(), array(),
-		wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style(
+		'wp-kit-elementor',
+		get_stylesheet_uri(),
+		array(),
+		WPKIT_ELEMENTOR_VERSION
+	);
 
 	// Comment reply link
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	wp_enqueue_style(
+		'wp-kit-elementor-theme-style',
+		get_stylesheet_directory_uri() . '/theme' . $min_suffix . '.css',
+		array(),
+		WPKIT_ELEMENTOR_VERSION
+	);
 }
 
 add_action( 'wp_enqueue_scripts', 'scripts' );
