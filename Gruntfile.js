@@ -7,6 +7,7 @@ module.exports = function( grunt ) {
 	require( 'load-grunt-tasks' )( grunt );
 
 	const sass = require( 'sass' );
+	const textDomain = 'wp-kit-elementor';
 
 	// Project configuration.
 	grunt.initConfig( {
@@ -84,7 +85,7 @@ module.exports = function( grunt ) {
 
 		checktextdomain: {
 			options: {
-				text_domain: 'wp-kit-elementor',
+				text_domain: textDomain,
 				correct_domain: true,
 				keywords: [
 					// WordPress keywords
