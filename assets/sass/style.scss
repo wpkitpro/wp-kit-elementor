@@ -22,7 +22,8 @@ WP Kit Elementor is distributed under the terms of the GNU GPL.
 	--global--link-hover-color: #333366;
 }
 
-@import "generic/variables";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 @import "generic/normalize";
 @import "generic/general";
 @import "generic/reset";
