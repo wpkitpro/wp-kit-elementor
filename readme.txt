@@ -43,6 +43,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 1.0.4-beta1 - 2024-01-13 =
+* Tweak: Refactor theme function file for wp-kit-elementor
 * New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
 * New: Add style code for header, footer, comments, and posts/pages
 * New: Add theme.scss and related Sass files
