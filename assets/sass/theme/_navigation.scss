@@ -1,0 +1,31 @@
+/**
+ * Navigation styles
+ */
+.primary-navigation {
+	ul {
+		display: flex;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin-bottom: 1.25rem; /* 20/16 */
+		}
+	}
+}
+
+nav {
+	&.primary-navigation {
+		text-align: center;
+
+		a, span {
+			padding: .3125rem .9375rem; /* 5/16 *//* 15/16 */
+		}
+	}
+}
+
+.site-logo a,
+.primary-navigation a,
+.kit-theme-post .read-more a,
+.kit-theme-post .post-title a {
+	text-decoration: none;
+}
