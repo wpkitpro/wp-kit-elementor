@@ -3,7 +3,7 @@
 Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
-Requires PHP: 7.4
+Requires PHP: 7.3
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -44,8 +44,9 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 = 1.0.5 - 2024-01-13 =
 * Tweak: Update light-gray color variable and references
+* Fix: The PHP requirement has been reduced from 7.4 to 7.3 in the readme.txt file.
 
-= 1.0.4-beta1 - 2024-01-13 =
+= 1.0.4 - 2024-01-13 =
 * Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
