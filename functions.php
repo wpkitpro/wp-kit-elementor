@@ -29,9 +29,6 @@ function setup() {
 
 	add_theme_support( 'custom-header' );
 
-	// Add theme support for Custom Background.
-	add_theme_support( 'custom-background', [ 'default-color' => '' ] );
-
 	// Set the default content width.
 	$GLOBALS['content_width'] = 960;
 
