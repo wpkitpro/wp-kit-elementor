@@ -1,7 +1,13 @@
 /**
  * Footer styles
  */
+.site-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1.875rem 0; /* 30/16 */
+}
+
 .footer-copyright {
 	text-align: center;
-	padding: 1.875rem 0; /* 30/16 */
 }
