@@ -85,8 +85,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Update: WP Kit Elementor theme requirements and license info
 * Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
-* Fixed: Remove border style from nav links in wp-kit-elementor theme
-* Fixed: Header template part reference the '.php' extension was removed
+* Fix: Remove border style from nav links in wp-kit-elementor theme
+* Fix: Header template part reference the '.php' extension was removed
 
 = 1.0.2 - 2023-12-22 =
 * New: Added editor style support to wp-kit-elementor theme
@@ -95,7 +95,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Modify alignment in post-footer of wp-kit-elementor theme
 * Tweak: Updated 'bundle' script in wp-kit-elementor theme
 * Tweak: Update package name and improve 404 template in wp-kit-elementor theme
-* Fixed: Fixed style files and add instructions in wp-kit-elementor theme
+* Fix: Fix style files and add instructions in wp-kit-elementor theme
 * Removed: Remove changelog.txt from wp-kit-elementor theme
 * Updated: Update theme metadata and author details
 * Updated: Screenshot image license details in readme
@@ -106,8 +106,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Update version number in wpkit-elementor theme
 * Update README files and package details for WPKit Elementor theme
 * Update SDK class with improved exception handling
-* Fixed: Text domain in 404.php
-* Fixed: 'esc_html_e' to 'esc_attr__' in header.php
+* Fix: Text domain in 404.php
+* Fix: 'esc_html_e' to 'esc_attr__' in header.php
 
 = 1.0.0 - 2023-12-03 =
 * New: Add comments.php for WP Kit Elementor theme
@@ -140,8 +140,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Refactored file paths and updated theme details
 * Tweak: Remove excessive CSS styling from WPKit theme
 * Updated: Update theme version and fix CSS selectors
-* Fixed: Fix typo in class name in style.scss
-* Fixed: Refactor CSS class name in style.scss
+* Fix: Fix typo in class name in style.scss
+* Fix: Refactor CSS class name in style.scss
 * Removed: Remove unused custom template in WPKit
 
 = 0.0.1 - 2023-12-03 =
