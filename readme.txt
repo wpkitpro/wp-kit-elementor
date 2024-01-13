@@ -102,22 +102,18 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Fixed: 'esc_html_e' to 'esc_attr__' in header.php
 
 = 1.0.0 - 2023-12-03 =
+* New: Add comments.php for WP Kit Elementor theme
 * Tweak: Update theme name and version, refine bundle script
-* Updated: Update theme version and fix CSS selectors
 * Tweak: Refactor wpkit-elementor theme index template
 * Tweak: Remove unused template parts from theme
 * Tweak: Extend page rendering in wpkit-elementor theme
-* Fixed: Fix typo in class name in style.scss
-* Fixed: Refactor CSS class name in style.scss
 * Tweak: Update dependencies in package.json & package-lock.json
 * Tweak: Update package.json with bundling and translation tasks
 * Tweak: Update template structure and improve accessibility in page.php
 * Tweak: Update skip link target and change content wrapper in header.php
 * Tweak: Rename package name and change main content wrapper in footer.php
 * Tweak: Update main content accessibility and documentation
-* Added: Add comments.php for WP Kit Elementor theme
 * Tweak: Update theme information in style.css
-* Removed: Remove unused custom template in WPKit
 * Added: Add sidebar.php to avoid Deprecated Message
 * Tweak: Rename LICENSE.md to LICENSE and update copyright
 * Tweak: Add footer documentation to footer.php
@@ -135,6 +131,10 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Remove setup.php and template-functions.php
 * Tweak: Refactored file paths and updated theme details
 * Tweak: Remove excessive CSS styling from WPKit theme
+* Updated: Update theme version and fix CSS selectors
+* Fixed: Fix typo in class name in style.scss
+* Fixed: Refactor CSS class name in style.scss
+* Removed: Remove unused custom template in WPKit
 
 = 0.0.1 - 2023-12-03 =
 * Initial Public Release
