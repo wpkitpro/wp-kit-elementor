@@ -37,7 +37,7 @@ function setup() {
 
 	// This theme uses wp_nav_menu() in one location
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'wp-kit-elementor' ),
+		'primary' => __( 'Primary', 'wp-kit-elementor' ),
 		'footer'  => __( 'Footer', 'wp-kit-elementor' ),
 	) );
 
