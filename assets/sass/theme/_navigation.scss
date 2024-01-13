@@ -1,20 +1,16 @@
 /**
  * Navigation styles
  */
-.primary-navigation {
+.site-navigation {
 	ul {
 		display: flex;
 		padding: 0;
 		list-style: none;
-
-		li {
-			margin-bottom: 1.25rem; /* 20/16 */
-		}
 	}
 }
 
 nav {
-	&.primary-navigation {
+	&.site-navigation {
 		text-align: center;
 
 		a, span {
@@ -24,7 +20,7 @@ nav {
 }
 
 .site-logo a,
-.primary-navigation a,
+.site-navigation a,
 .kit-theme-post .read-more a,
 .kit-theme-post .post-title a {
 	text-decoration: none;
