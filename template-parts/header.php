@@ -34,10 +34,7 @@ $blog_description = get_bloginfo( 'description', 'display' );
 
 		<?php endif; // Endif has_custom_logo() ?>
 	</div>
-	<nav id="site-navigation"
-		 class="primary-navigation"
-		 aria-label="<?php esc_attr_e( 'Primary menu', 'wp-kit-elementor' ); ?>"
-	>
+	<nav class="site-navigation" aria-label="<?php esc_attr_e( 'Primary navigation', 'wp-kit-elementor' ); ?>">
 		<?php if ( has_nav_menu( 'primary' ) ) { ?>
 			<?php wp_nav_menu( [ 'theme_location' => 'primary' ] ); ?>
 		<?php } // Endif has_nav_menu('primary') ?>
