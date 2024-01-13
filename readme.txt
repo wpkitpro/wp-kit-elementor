@@ -42,6 +42,9 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
+= 1.0.5 - 2024-01-13 =
+* Tweak: Update light-gray color variable and references
+
 = 1.0.4-beta1 - 2024-01-13 =
 * Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
