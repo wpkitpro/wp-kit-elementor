@@ -47,15 +47,15 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Fix: The PHP requirement has been reduced from 7.4 to 7.3 in the readme.txt file.
 
 = 1.0.4 - 2024-01-13 =
-* Tweak: Updated theme metadata in the style.css file
-* Tweak: Add enqueue theme stylesheet code in functions.php
-* Tweak: Refactor theme function file for wp-kit-elementor
 * New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
 * New: Add style code for header, footer, comments, and posts/pages
 * New: Add theme.scss and related Sass files
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
 * New: Add LICENSE file to WP Kit Elementor Theme
+* Tweak: Updated theme metadata in the style.css file
+* Tweak: Add enqueue theme stylesheet code in functions.php
+* Tweak: Refactor theme function file for wp-kit-elementor
 * Tweak: Replace CSS variables with SCSS variables
 * Tweak: Reorganize SCSS imports and add site logo styles
 * Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
