@@ -51,6 +51,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Refactor navigation styling in wp-kit-elementor theme
 * Tweak: Rename primary menu label in wp-kit-elementor theme functions
 * Tweak: Update light-gray color variable and references
+* Fix: Cleansed 'header.php' file in 'wp-kit-elementor' theme by deduction of superfluous line breaks.
 * Fix: Simplify site navigation tag in theme header
 * Fix: The PHP requirement has been reduced from 7.4 to 7.3 in the readme.txt file.
 
