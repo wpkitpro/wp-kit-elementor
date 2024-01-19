@@ -46,6 +46,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * New: Footer code has been moved to a separate 'template-parts/footer' file to improve code organization.
 * New: Add footer menu to wp-kit-elementor theme
 * New: Add gray-base color variable
+* Tweak: Update theme and author name
 * Tweak: Adjust font size and weight in wp-kit-elementor theme's header
 * Tweak: Update footer styling in wp-kit-elementor theme
 * Tweak: Refactor navigation styling in wp-kit-elementor theme
