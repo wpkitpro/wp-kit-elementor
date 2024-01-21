@@ -9,9 +9,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'WPKIT_ELEMENTOR_VERSION', '1.0.4' );
+define( 'WPKIT_ELEMENTOR_VERSION', '1.0.5' );
 
-function setup() {
+function wp_kit_elementor_setup() {
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
 
@@ -80,9 +80,9 @@ function setup() {
 	}
 }
 
-add_action( 'after_setup_theme', 'setup' );
+add_action( 'after_setup_theme', 'wp_kit_elementor_setup' );
 
-function scripts() {
+function wp_kit_elementor_scripts() {
 	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 	// Theme Stylesheet
@@ -106,4 +106,4 @@ function scripts() {
 	);
 }
 
-add_action( 'wp_enqueue_scripts', 'scripts' );
+add_action( 'wp_enqueue_scripts', 'wp_kit_elementor_scripts' );

@@ -42,7 +42,10 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.4-beta1 - 2024-01-13 =
+= 1.0.5 - 2024-01-21 =
+Refactor function names in WpKit Elementor theme
+
+= 1.0.4 - 2024-01-13 =
 * Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
