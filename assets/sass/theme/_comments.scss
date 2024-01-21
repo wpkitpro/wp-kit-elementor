@@ -13,7 +13,7 @@
 		padding: 1.25rem; /* 20/16 */
 		margin-top: 1.25rem; /* 20/16 */
 		margin-bottom: 1.25rem; /* 20/16 */
-		border: 1px solid #e8e8e8;
+		border: 1px solid $light-gray;
 	}
 
 	img {
@@ -30,6 +30,6 @@
 .comment-form-comment {
 	input,
 	textarea {
-		border-color: #e8e8e8;
+		border-color: $light-gray;
 	}
 }
