@@ -42,7 +42,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.5 - 2024-01-13 =
+= 1.0.5 - 2024-01-21 =
 * New: Footer code has been moved to a separate 'template-parts/footer' file to improve code organization.
 * New: Add footer menu to wp-kit-elementor theme
 * New: Add gray-base color variable
@@ -53,9 +53,11 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Refactor navigation styling in wp-kit-elementor theme
 * Tweak: Rename primary menu label in wp-kit-elementor theme functions
 * Tweak: Update light-gray color variable and references
+* Fix: Added prefix wp_kit_elementor_ to function names in wp-kit-elementor
 * Fix: Cleansed 'header.php' file in 'wp-kit-elementor' theme by deduction of superfluous line breaks.
 * Fix: Simplify site navigation tag in theme header
 * Fix: The PHP requirement has been reduced from 7.4 to 7.3 in the readme.txt file.
+* Remove: Remove stable tag in theme's style file
 * Remove: Custom background support in wp-kit-elementor.
 
 = 1.0.4 - 2024-01-13 =
