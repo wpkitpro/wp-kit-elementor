@@ -42,8 +42,11 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
+= 1.0.5 - 2024-01-22 =
+Fix: Correct function names in wp_kit_elementor theme
+
 = 1.0.5 - 2024-01-21 =
-Refactor function names in WpKit Elementor theme
+Fix: Refactor function names in WpKit Elementor theme
 
 = 1.0.4 - 2024-01-13 =
 * Tweak: Updated theme metadata in the style.css file
