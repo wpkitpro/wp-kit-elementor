@@ -11,13 +11,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'WPKIT_ELEMENTOR_VERSION', '1.0.5' );
 
-function setup() {
+function wp_kit_elementor_setup() {
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
 
 	// Let WordPress manage the document title for us
 	add_theme_support( 'title-tag' );
-
 
 	// Custom Logo
 	add_theme_support( 'custom-logo', [
@@ -26,8 +25,6 @@ function setup() {
 		'flex-height' => true,
 		'flex-width'  => true,
 	] );
-
-	add_theme_support( 'custom-header' );
 
 	// Set the default content width.
 	$GLOBALS['content_width'] = 960;
@@ -78,14 +75,14 @@ function setup() {
 	}
 }
 
-add_action( 'after_setup_theme', 'setup' );
+add_action( 'after_setup_theme', 'wp_kit_elementor_setup' );
 
-function scripts() {
+function wp_kit_elementor_scripts() {
 	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 	// Theme Stylesheet
 	wp_enqueue_style(
-		'wp-kit-elementor',
+		'wp-kit-elementor-frontend',
 		get_stylesheet_uri(),
 		array(),
 		WPKIT_ELEMENTOR_VERSION
@@ -97,11 +94,11 @@ function scripts() {
 	}
 
 	wp_enqueue_style(
-		'wp-kit-elementor-theme-style',
+		'wp-kit-elementor-theme',
 		get_stylesheet_directory_uri() . '/theme' . $min_suffix . '.css',
 		array(),
 		WPKIT_ELEMENTOR_VERSION
 	);
 }
 
-add_action( 'wp_enqueue_scripts', 'scripts' );
+add_action( 'wp_enqueue_scripts', 'wp_kit_elementor_scripts' );
