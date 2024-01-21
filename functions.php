@@ -82,7 +82,7 @@ function wp_kit_elementor_setup() {
 
 add_action( 'after_setup_theme', 'wp_kit_elementor_setup' );
 
-function scripts() {
+function wp_kit_elementor_scripts() {
 	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 	// Theme Stylesheet
