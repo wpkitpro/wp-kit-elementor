@@ -1,9 +1,9 @@
 {
-	"name": "wp-kit-elementor-theme",
-	"slug": "wp-kit-elementor-theme",
+	"name": "wp-kit-elementor",
+	"slug": "wp-kit-elementor",
 	"homepage": "https://wpkit.pro",
 	"description": "A sample WordPress theme for Elementor page builder.",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"private": true,
 	"scripts": {
 		"update-version": "node .github/scripts/update-version-in-files.js",
