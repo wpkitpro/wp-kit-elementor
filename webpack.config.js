@@ -12,7 +12,6 @@ const TerserPlugin = require( 'terser-webpack-plugin' );
 const entry = {
 	'wpkit-frontend': path.resolve( __dirname, './assets/scripts/frontend/wpkit-frontend.js' ),
 	'wpkit-editor': path.resolve( __dirname, './assets/scripts/editor/wpkit-editor.js' ),
-	'wpkit-admin': path.resolve( __dirname, './assets/scripts/admin/wpkit-admin.js' ),
 }
 
 const copyPluginConfig = new CopyPlugin( {
