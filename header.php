@@ -10,6 +10,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+$options = get_option( 'wpkit_options' );
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -25,6 +26,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<a class="skip-link screen-reader-text" href="#content">
 		<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
 	</a>
+
+	<pre><?php print_r( $options['disable-page-title'] ) ?></pre>
 
 	<?php get_template_part( 'template-parts/header' ); ?>
 

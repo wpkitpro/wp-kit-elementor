@@ -83,6 +83,8 @@ add_action( 'after_setup_theme', 'setup' );
 function scripts() {
 	$min_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
+	wp_enqueue_script( 'wpkit-admin', get_stylesheet_directory_uri() . '/assets/js/kit-admin.js', array(), WPKIT_ELEMENTOR_VERSION );
+
 	// Theme Stylesheet
 	wp_enqueue_style(
 		'wp-kit-elementor',
@@ -97,6 +99,13 @@ function scripts() {
 	}
 
 	wp_enqueue_style(
+		'wpkit-elementor-admin-style',
+		get_stylesheet_directory_uri() . '/wpkit-admin' . $min_suffix . '.css',
+		array(),
+		WPKIT_ELEMENTOR_VERSION
+	);
+
+	wp_enqueue_style(
 		'wp-kit-elementor-theme-style',
 		get_stylesheet_directory_uri() . '/theme' . $min_suffix . '.css',
 		array(),
@@ -105,3 +114,8 @@ function scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'scripts' );
+
+/**
+ * Settings page
+ */
+require get_stylesheet_directory() . '/inc/class-wpkit-settings.php';
