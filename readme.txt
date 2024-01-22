@@ -42,7 +42,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.5 - 2024-01-22 =
+= 1.0.6 - 2024-01-22 =
 Fix: Correct function names in wp_kit_elementor theme
 
 = 1.0.5 - 2024-01-21 =
