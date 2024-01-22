@@ -42,25 +42,16 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
+= 1.0.5 - 2024-01-22 =
+Fix: Correct function names in wp_kit_elementor theme
+
 = 1.0.5 - 2024-01-21 =
-* New: Footer code has been moved to a separate 'template-parts/footer' file to improve code organization.
-* New: Add footer menu to wp-kit-elementor theme
-* New: Add gray-base color variable
-* Tweak: Refactor file paths and remove unnecessary comments
-* Tweak: Update theme and author name
-* Tweak: Adjust font size and weight in wp-kit-elementor theme's header
-* Tweak: Update footer styling in wp-kit-elementor theme
-* Tweak: Refactor navigation styling in wp-kit-elementor theme
-* Tweak: Rename primary menu label in wp-kit-elementor theme functions
-* Tweak: Update light-gray color variable and references
-* Fix: Added prefix wp_kit_elementor_ to function names in wp-kit-elementor
-* Fix: Cleansed 'header.php' file in 'wp-kit-elementor' theme by deduction of superfluous line breaks.
-* Fix: Simplify site navigation tag in theme header
-* Fix: The PHP requirement has been reduced from 7.4 to 7.3 in the readme.txt file.
-* Remove: Remove stable tag in theme's style file
-* Remove: Custom background support in wp-kit-elementor.
+Fix: Refactor function names in WpKit Elementor theme
 
 = 1.0.4 - 2024-01-13 =
+* Tweak: Updated theme metadata in the style.css file
+* Tweak: Add enqueue theme stylesheet code in functions.php
+* Tweak: Refactor theme function file for wp-kit-elementor
 * New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
 * New: Add style code for header, footer, comments, and posts/pages
 * New: Add theme.scss and related Sass files

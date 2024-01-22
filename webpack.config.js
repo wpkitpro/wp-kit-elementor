@@ -28,6 +28,7 @@ const copyPluginConfig = new CopyPlugin( {
 					...Object.keys( entry ).map( ( key ) => `**/assets/js/${ key }.min.asset.php` ),
 					'**.zip',
 					'**.css',
+					'**/.env',
 					'**/karma.conf.js',
 					'**/assets/scripts/**',
 					'**/assets/sass/**',
