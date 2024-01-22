@@ -1,4 +1,4 @@
-=== WP Kit Elementor ===
+=== WpKit Elementor ===
 
 Contributors: wpkit
 Requires at least: 6.4
