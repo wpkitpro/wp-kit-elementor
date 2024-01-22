@@ -29,6 +29,7 @@
 		"concurrently": "^8.2.2",
 		"copy-webpack-plugin": "^11.0.0",
 		"cssnano": "^6.0.3",
+		"dotenv": "^16.3.2",
 		"eslint": "^8.56.0",
 		"eslint-config-wordpress": "^2.0.0",
 		"eslint-plugin-babel": "^5.3.1",
@@ -48,6 +49,7 @@
 		"matchdep": "^2.0.0",
 		"npm-build-zip": "^1.0.4",
 		"react": "^18.2.0",
+		"replace-in-file": "^7.1.0",
 		"rimraf": "^5.0.5",
 		"sass": "^1.69.7",
 		"terser-webpack-plugin": "^5.3.10",
@@ -58,7 +60,7 @@
 		"@babel/plugin-transform-modules-commonjs": "^7.23.3",
 		"@babel/plugin-transform-runtime": "^7.23.7",
 		"@lodder/grunt-postcss": "^3.1.1",
-		"grunt-autoprefixer": "^3.0.0",
+		"grunt-autoprefixer": "^3.0.4",
 		"grunt-cssnano": "^3.0.0"
 	}
 }
