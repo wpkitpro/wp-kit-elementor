@@ -3,7 +3,7 @@
 Contributors: wpkit
 Requires at least: 6.4
 Tested up to: 6.4.2
-Requires PHP: 7.4
+Requires PHP: 7.3
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,7 +42,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.5 - 2024-01-22 =
+= 1.0.6 - 2024-01-22 =
 Fix: Correct function names in wp_kit_elementor theme
 
 = 1.0.5 - 2024-01-21 =
@@ -58,6 +58,9 @@ Fix: Refactor function names in WpKit Elementor theme
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
 * New: Add LICENSE file to WP Kit Elementor Theme
+* Tweak: Updated theme metadata in the style.css file
+* Tweak: Add enqueue theme stylesheet code in functions.php
+* Tweak: Refactor theme function file for wp-kit-elementor
 * Tweak: Replace CSS variables with SCSS variables
 * Tweak: Reorganize SCSS imports and add site logo styles
 * Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
@@ -79,8 +82,8 @@ Fix: Refactor function names in WpKit Elementor theme
 * Update: WP Kit Elementor theme requirements and license info
 * Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
-* Fixed: Remove border style from nav links in wp-kit-elementor theme
-* Fixed: Header template part reference the '.php' extension was removed
+* Fix: Remove border style from nav links in wp-kit-elementor theme
+* Fix: Header template part reference the '.php' extension was removed
 
 = 1.0.2 - 2023-12-22 =
 * New: Added editor style support to wp-kit-elementor theme
@@ -89,7 +92,7 @@ Fix: Refactor function names in WpKit Elementor theme
 * Tweak: Modify alignment in post-footer of wp-kit-elementor theme
 * Tweak: Updated 'bundle' script in wp-kit-elementor theme
 * Tweak: Update package name and improve 404 template in wp-kit-elementor theme
-* Fixed: Fixed style files and add instructions in wp-kit-elementor theme
+* Fix: Fix style files and add instructions in wp-kit-elementor theme
 * Removed: Remove changelog.txt from wp-kit-elementor theme
 * Updated: Update theme metadata and author details
 * Updated: Screenshot image license details in readme
@@ -100,26 +103,22 @@ Fix: Refactor function names in WpKit Elementor theme
 * Update version number in wpkit-elementor theme
 * Update README files and package details for WPKit Elementor theme
 * Update SDK class with improved exception handling
-* Fixed: Text domain in 404.php
-* Fixed: 'esc_html_e' to 'esc_attr__' in header.php
+* Fix: Text domain in 404.php
+* Fix: 'esc_html_e' to 'esc_attr__' in header.php
 
 = 1.0.0 - 2023-12-03 =
+* New: Add comments.php for WP Kit Elementor theme
 * Tweak: Update theme name and version, refine bundle script
-* Updated: Update theme version and fix CSS selectors
 * Tweak: Refactor wpkit-elementor theme index template
 * Tweak: Remove unused template parts from theme
 * Tweak: Extend page rendering in wpkit-elementor theme
-* Fixed: Fix typo in class name in style.scss
-* Fixed: Refactor CSS class name in style.scss
 * Tweak: Update dependencies in package.json & package-lock.json
 * Tweak: Update package.json with bundling and translation tasks
 * Tweak: Update template structure and improve accessibility in page.php
 * Tweak: Update skip link target and change content wrapper in header.php
 * Tweak: Rename package name and change main content wrapper in footer.php
 * Tweak: Update main content accessibility and documentation
-* Added: Add comments.php for WP Kit Elementor theme
 * Tweak: Update theme information in style.css
-* Removed: Remove unused custom template in WPKit
 * Added: Add sidebar.php to avoid Deprecated Message
 * Tweak: Rename LICENSE.md to LICENSE and update copyright
 * Tweak: Add footer documentation to footer.php
@@ -137,6 +136,10 @@ Fix: Refactor function names in WpKit Elementor theme
 * Tweak: Remove setup.php and template-functions.php
 * Tweak: Refactored file paths and updated theme details
 * Tweak: Remove excessive CSS styling from WPKit theme
+* Updated: Update theme version and fix CSS selectors
+* Fix: Fix typo in class name in style.scss
+* Fix: Refactor CSS class name in style.scss
+* Removed: Remove unused custom template in WPKit
 
 = 0.0.1 - 2023-12-03 =
 * Initial Public Release

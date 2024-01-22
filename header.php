@@ -26,7 +26,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
 	</a>
 
-
 	<?php get_template_part( 'template-parts/header' ); ?>
 
 	<div id="content" class="site-content">
