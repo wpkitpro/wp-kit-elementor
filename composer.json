@@ -1,6 +1,6 @@
 {
     "name": "wpkitpro/wp-kit-elementor",
-    "description": "A sample WordPress theme for Elementor page builder.",
+    "description": "A sleek and versatile WordPress theme designed to seamlessly integrate with the Elementor page builder.",
     "require": {
         "squizlabs/php_codesniffer": "^3.6",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
