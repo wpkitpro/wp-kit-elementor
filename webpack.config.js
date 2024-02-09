@@ -45,6 +45,7 @@ const copyPluginConfig = new CopyPlugin( {
 					'**/phpcs.xml',
 					'**/README.md',
 					'**/vendor/**',
+					'**/wporg-assets/**',
 					'**/webpack.config.js',
 				],
 			},
