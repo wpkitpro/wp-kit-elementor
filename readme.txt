@@ -42,14 +42,16 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
+= 1.0.7 - 2024-02-09 =
+* Tweak: Refactor styles enqueue in wp-kit-elementor theme
+
 = 1.0.6 - 2024-01-22 =
-Fix: Correct function names in wp_kit_elementor theme
+* Fix: Correct function names in wp_kit_elementor theme
 
 = 1.0.5 - 2024-01-21 =
-Fix: Refactor function names in WpKit Elementor theme
+* Fix: Refactor function names in WpKit Elementor theme
 
 = 1.0.4 - 2024-01-13 =
-* Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
 * New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
@@ -57,22 +59,14 @@ Fix: Refactor function names in WpKit Elementor theme
 * New: Add theme.scss and related Sass files
 * New: Added new scripts file mode to project
 * New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
-* New: Add LICENSE file to WP Kit Elementor Theme
 * Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
 * Tweak: Replace CSS variables with SCSS variables
 * Tweak: Reorganize SCSS imports and add site logo styles
 * Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
-* Tweak: The _general.scss file was moved from the 'generic' directory to the 'theme' directory.
-* Tweak: Remove unnecessary white spaces in _reset.scss 
-* Tweak: Moved _variables.scss and _mixins.scss from generic to abstracts
 * Tweak: Implement styling for various UI components in WP Kit Elementor theme
-* Tweak: Correct product name reference in readme
-* Tweak: Change attribution text in readme.txt
-* Update: Theme style files in wp-kit-elementor
 * Update: ESLint rules for wp-kit-elementor theme
-* Update: webpack.mix.js and package-lock.json
 * Update: WP Kit Elementor theme's style.css
 * Update: Theme metadata in style.css and readme file
 * Update: Theme version and image for theme screenshot
@@ -97,7 +91,6 @@ Fix: Refactor function names in WpKit Elementor theme
 * Updated: Update theme metadata and author details
 * Updated: Screenshot image license details in readme
 * Updated: Text domain in all theme files
-* Removed: README.md file from wp-kit-elementor theme
 
 = 1.0.1 - 2023-12-11 =
 * Update version number in wpkit-elementor theme
@@ -108,38 +101,17 @@ Fix: Refactor function names in WpKit Elementor theme
 
 = 1.0.0 - 2023-12-03 =
 * New: Add comments.php for WP Kit Elementor theme
-* Tweak: Update theme name and version, refine bundle script
-* Tweak: Refactor wpkit-elementor theme index template
 * Tweak: Remove unused template parts from theme
 * Tweak: Extend page rendering in wpkit-elementor theme
-* Tweak: Update dependencies in package.json & package-lock.json
-* Tweak: Update package.json with bundling and translation tasks
 * Tweak: Update template structure and improve accessibility in page.php
-* Tweak: Update skip link target and change content wrapper in header.php
-* Tweak: Rename package name and change main content wrapper in footer.php
-* Tweak: Update main content accessibility and documentation
-* Tweak: Update theme information in style.css
 * Added: Add sidebar.php to avoid Deprecated Message
-* Tweak: Rename LICENSE.md to LICENSE and update copyright
-* Tweak: Add footer documentation to footer.php
-* Tweak: Update Author URI and theme description in style.scss
-* Tweak: Removed CHANGELOG.md and transferred its contents to changelog.txt
-* Tweak: Update theme styling and URI information
 * Tweak: Updated footer template for improved accessibility and branding
-* Tweak: Updated header template for improved accessibility
 * Tweak: Refactor header template and enhance site branding
 * Tweak: Add feature to display temperature in Fahrenheit
-* Tweak: Remove unused js files from WPKit Elementor theme
-* Tweak: Add mix-manifest.json to .gitignore in WPKit Elementor theme
-* Tweak: Refactored WPKit Elementor theme configurations
 * Tweak: Updated functions.php with theme support and basic setups
-* Tweak: Remove setup.php and template-functions.php
 * Tweak: Refactored file paths and updated theme details
-* Tweak: Remove excessive CSS styling from WPKit theme
-* Updated: Update theme version and fix CSS selectors
 * Fix: Fix typo in class name in style.scss
 * Fix: Refactor CSS class name in style.scss
-* Removed: Remove unused custom template in WPKit
 
 = 0.0.1 - 2023-12-03 =
 * Initial Public Release
