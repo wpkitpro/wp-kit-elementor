@@ -42,31 +42,28 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 == Changelog ==
 
-= 1.0.7 - 2024-02-09 =
+= 2.0.0 - 2024-02-09 =
+* New: Add dynamic header and settings for site dynamic header.
+* Tweak: Introduced new function `wp_kit_elementor_display_header` for header display control.
+* Tweak: Customized rendering of site logo and navigation menu in the header.
 * Tweak: Refactor styles enqueue in wp-kit-elementor theme
+* Fixed: Modified the CSS class in `_header.scss` from `.site-logo` to `.site-site-branding`.
 
 = 1.0.6 - 2024-01-22 =
-* Fix: Correct function names in wp_kit_elementor theme
+* Fixed: Correct function names in wp_kit_elementor theme
 
 = 1.0.5 - 2024-01-21 =
-* Fix: Refactor function names in WpKit Elementor theme
+* Fixed: Refactor function names in WpKit Elementor theme
 
 = 1.0.4 - 2024-01-13 =
-* Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
 * New: Add navigation styles to _header-and-footer.scss in wp-kit-elementor theme
 * New: Add style code for header, footer, comments, and posts/pages
-* New: Add theme.scss and related Sass files
-* New: Added new scripts file mode to project
-* New: Define WPKIT_ELEMENTOR_VERSION constant in functions.php
 * Tweak: Updated theme metadata in the style.css file
 * Tweak: Add enqueue theme stylesheet code in functions.php
 * Tweak: Refactor theme function file for wp-kit-elementor
 * Tweak: Replace CSS variables with SCSS variables
-* Tweak: Reorganize SCSS imports and add site logo styles
-* Tweak: Refactor and simplify Sass styles in wp-kit-elementor theme
 * Tweak: Implement styling for various UI components in WP Kit Elementor theme
-* Update: ESLint rules for wp-kit-elementor theme
 * Update: WP Kit Elementor theme's style.css
 * Update: Theme metadata in style.css and readme file
 * Update: Theme version and image for theme screenshot
@@ -76,18 +73,15 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Update: WP Kit Elementor theme requirements and license info
 * Upgrade: theme requirement and refine copyright details
 * Update: Update WP Kit Elementor theme details
-* Fix: Remove border style from nav links in wp-kit-elementor theme
-* Fix: Header template part reference the '.php' extension was removed
+* Fixed: Remove border style from nav links in wp-kit-elementor theme
+* Fixed: Header template part reference the '.php' extension was removed
 
 = 1.0.2 - 2023-12-22 =
 * New: Added editor style support to wp-kit-elementor theme
 * New: Create header template in wp-kit-elementor theme
 * Tweak: Update theme screenshot and enhance `wp-kit-elementor` theme
 * Tweak: Modify alignment in post-footer of wp-kit-elementor theme
-* Tweak: Updated 'bundle' script in wp-kit-elementor theme
-* Tweak: Update package name and improve 404 template in wp-kit-elementor theme
-* Fix: Fix style files and add instructions in wp-kit-elementor theme
-* Removed: Remove changelog.txt from wp-kit-elementor theme
+* Tweak: Improve 404 template in wp-kit-elementor theme
 * Updated: Update theme metadata and author details
 * Updated: Screenshot image license details in readme
 * Updated: Text domain in all theme files
@@ -96,8 +90,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Update version number in wpkit-elementor theme
 * Update README files and package details for WPKit Elementor theme
 * Update SDK class with improved exception handling
-* Fix: Text domain in 404.php
-* Fix: 'esc_html_e' to 'esc_attr__' in header.php
+* Fixed: Text domain in 404.php
+* Fixed: 'esc_html_e' to 'esc_attr__' in header.php
 
 = 1.0.0 - 2023-12-03 =
 * New: Add comments.php for WP Kit Elementor theme
@@ -110,8 +104,8 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 * Tweak: Add feature to display temperature in Fahrenheit
 * Tweak: Updated functions.php with theme support and basic setups
 * Tweak: Refactored file paths and updated theme details
-* Fix: Fix typo in class name in style.scss
-* Fix: Refactor CSS class name in style.scss
+* Fixed: Fix typo in class name in style.scss
+* Fixed: Refactor CSS class name in style.scss
 
 = 0.0.1 - 2023-12-03 =
 * Initial Public Release
