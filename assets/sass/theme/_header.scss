@@ -2,11 +2,14 @@
  * Header styles
  */
 .site-header {
+	/* Background compat for WpKitElementor 2.0.0 */
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
 	margin-bottom: 1.875rem; /* 30/16 */
-	padding: 1.25rem 0; /* 20/16 */
+	padding-block-start: 1rem; /* 16/16 */
+	padding-block-end: 1rem; /* 16/16 */
+	position: relative;
 }
 
 // Changed from .site-logo
