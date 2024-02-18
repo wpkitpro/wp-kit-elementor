@@ -93,16 +93,6 @@ function wp_kit_elementor_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'wp_kit_elementor_scripts' );
 
-if ( ! function_exists( 'wp_kit_elementor_display_header' ) ) {
-	/**
-	 * Retrieves the value of the `wp_kit_elementor_header` filter.
-	 *
-	 * @return bool The value of the `wp_kit_elementor_header` filter.
-	 * @since 1.0.0
-	 */
-	function wp_kit_elementor_display_header() {
-		$wpkit_elementor_header = true;
-
-		return apply_filters( 'wp_kit_elementor_header', $wpkit_elementor_header );
-	}
-}
+/** Includes */
+require get_template_directory() . '/includes/elementor-functions.php';
+require get_template_directory() . '/includes/template-functions.php';
