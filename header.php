@@ -26,7 +26,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
 	</a>
 
-	<?php get_template_part( 'template-parts/header' ); ?>
+	<?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) {
+		if ( wp_kit_elementor_display_header() ) {
+			if ( did_action( 'elementor/loaded' ) && wp_kit_elementor_display_header() ) {
+				get_template_part( 'template-parts/header-dynamic' ); // Beta
+			} else {
+				get_template_part( 'template-parts/header' );
+			}
+		}
+	} ?>
+
 
 	<div id="content" class="site-content">
 
