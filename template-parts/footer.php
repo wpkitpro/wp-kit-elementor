@@ -16,29 +16,30 @@ $footer_nav_menu = wp_nav_menu( array(
 ) );
 ?>
 <footer id="colophon" class="site-footer">
+	<div class="footer-inside">
+		<?php if ( $footer_nav_menu ): ?>
+			<nav class="site-navigation">
+				<?php
+				// PHPCS - escaped by WordPress with "wp_nav_menu"
+				echo $footer_nav_menu;  // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				?>
+			</nav>
+		<?php endif; ?>
 
-	<?php if ( $footer_nav_menu ): ?>
-		<nav class="site-navigation">
-			<?php
-			// PHPCS - escaped by WordPress with "wp_nav_menu"
-			echo $footer_nav_menu;  // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			?>
-		</nav>
-	<?php endif; ?>
+		<div class="footer-copyright">
 
-	<div class="footer-copyright">
+			<div class="credit">
+				<?php
+				/* translators: %1$s: theme name, %2$s link, %3$s theme author */
+				echo sprintf( __( '%1$s Theme by <a href="%2$s">%3$s.</a>',
+					'wp-kit-elementor' ), esc_html( $theme_name ),
+					esc_url( $theme_url ),
+					$theme_author
+				);
+				?>
+			</div>
 
-		<div class="credit">
-			<?php
-			/* translators: %1$s: theme name, %2$s link, %3$s theme author */
-			echo sprintf( __( '%1$s Theme by <a href="%2$s">%3$s.</a>',
-				'wp-kit-elementor' ), esc_html( $theme_name ),
-				esc_url( $theme_url ),
-				$theme_author
-			);
-			?>
 		</div>
-
 	</div>
 
 </footer><!-- #colophon -->
