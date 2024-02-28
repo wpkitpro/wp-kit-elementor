@@ -20,23 +20,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page-wrapper" class="site-page">
 
-	<a class="skip-link screen-reader-text" href="#content">
-		<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
-	</a>
+<a class="skip-link screen-reader-text" href="#content">
+	<?php esc_html_e( 'Skip to content', 'wp-kit-elementor' ); ?>
+</a>
 
-	<?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) {
-		if ( wp_kit_elementor_display_header() ) {
-			if ( did_action( 'elementor/loaded' ) && wp_kit_elementor_display_header() ) {
-				get_template_part( 'template-parts/header-dynamic' ); // Beta
-			} else {
-				get_template_part( 'template-parts/header' );
-			}
+<?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) {
+	if ( wp_kit_elementor_display_header() ) {
+		if ( did_action( 'elementor/loaded' ) && wp_kit_elementor_display_header() ) {
+			get_template_part( 'template-parts/header-dynamic' ); // Beta
+		} else {
+			get_template_part( 'template-parts/header' );
 		}
-	} ?>
-
-
-	<div id="content" class="site-content">
+	}
+} ?>
 
 

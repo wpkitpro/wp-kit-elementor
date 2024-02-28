@@ -12,9 +12,13 @@
 	position: relative;
 
 	.header-inside {
+		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		max-width: 60rem; /* 960/16 */
 		justify-content: space-between;
+		margin-inline-start: auto;
+		margin-inline-end: auto;
 	}
 }
 

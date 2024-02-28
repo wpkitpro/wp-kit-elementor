@@ -2,10 +2,19 @@
  * Footer styles
  */
 .site-footer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	position: relative;
 	padding: 1.875rem 0; /* 30/16 */
+	background-color: #aedbff;
+
+	.footer-inside {
+		width: 100%;
+		max-width: 60rem; /* 960/16 */
+		display: flex;
+		flex-wrap: wrap;
+		margin-inline-end: auto;
+		margin-inline-start: auto;
+		justify-content: space-between;
+	}
 }
 
 .footer-copyright {

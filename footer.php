@@ -14,11 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-</div><!-- #content -->
 
 <?php get_template_part( 'template-parts/footer' ); ?>
-
-</div><!-- #page-wrapper -->
 
 <?php wp_footer(); ?>
 
