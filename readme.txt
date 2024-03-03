@@ -44,6 +44,7 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 
 = 2.0.0 - 2024-02-09 =
 * New: Introduced dynamic header and footer functionality alongside theme settings for enhanced site customization.
+* Update: The asset files 'wpkit-frontend.js' and 'wpkit-editor.js' have been renamed to 'wpkit-elementor-frontend.js' and 'wpkit-elementor-editor.js'.
 * Update: Update single post template structure.
 * Update: The footer components of the wp-kit-elementor theme have been wrapped inside a 'footer-inside'.
 * Update: Updated theme main template structure and description

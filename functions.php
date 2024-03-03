@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'WPKIT_ELEMENTOR_VERSION', '1.0.6' );
+define( 'WPKIT_ELEMENTOR_VERSION', '2.0.0-beta1' );
 
 function wp_kit_elementor_setup() {
 	// Add default posts and comments RSS feed links to head
