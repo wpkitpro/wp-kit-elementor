@@ -3,7 +3,7 @@
 	"slug": "wp-kit-elementor",
 	"homepage": "https://wpkit.pro",
 	"description": "A sample WordPress theme for Elementor page builder.",
-	"version": "1.0.6",
+	"version": "2.0.0-beta1",
 	"private": true,
 	"scripts": {
 		"update-version": "node .github/scripts/update-version-in-files.js",
