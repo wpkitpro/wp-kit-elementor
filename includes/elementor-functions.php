@@ -140,7 +140,7 @@ if ( ! function_exists( 'wp_kit_elementor_get_header_layout_classes' ) ) {
 add_action( 'wp_enqueue_scripts', function () {
 	$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-	wp_enqueue_script( 'wpkit-elementor-frontend', get_template_directory_uri() . '/assets/js/wpkit-frontend.js', WPKIT_ELEMENTOR_VERSION, true );
+	wp_enqueue_script( 'wpkit-elementor-frontend', get_template_directory_uri() . '/assets/js/wpkit-elementor-frontend.js', WPKIT_ELEMENTOR_VERSION, true );
 
 	Plugin::$instance->kits_manager->frontend_before_enqueue_styles();
 } );

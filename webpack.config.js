@@ -10,8 +10,8 @@ const CopyPlugin = require( 'copy-webpack-plugin' );
 const TerserPlugin = require( 'terser-webpack-plugin' );
 
 const entry = {
-	'wpkit-frontend': path.resolve( __dirname, './assets/scripts/frontend/wpkit-frontend.js' ),
-	'wpkit-editor': path.resolve( __dirname, './assets/scripts/editor/wpkit-editor.js' ),
+	'wpkit-elementor-frontend': path.resolve( __dirname, './assets/scripts/frontend/wpkit-elementor-frontend.js' ),
+	'wpkit-elementor-editor': path.resolve( __dirname, './assets/scripts/editor/wpkit-elementor-editor.js' ),
 }
 
 const copyPluginConfig = new CopyPlugin( {
