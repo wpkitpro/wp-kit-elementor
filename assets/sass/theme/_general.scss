@@ -13,7 +13,7 @@ div.aligncenter {
 }
 
 .alignright {
-	float:right;
+	float: right;
 	margin: 5px 0 20px 20px;
 }
 
@@ -108,4 +108,8 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000;
 	/* Above WP toolbar. */
+}
+
+.hide {
+	display: none !important;
 }

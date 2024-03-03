@@ -35,12 +35,14 @@ $primary_nav_menu = wp_nav_menu( [
 				<p class="site-description">
 					<?php echo esc_html( $blog_description ); ?>
 				</p>
-			<?php endif; } ?>
+			<?php endif;
+		} ?>
 	</div>
 
 	<?php if ( $primary_nav_menu ): ?>
 		<nav class="site-navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'wp-kit-elementor' ); ?>">
 			<?php
+			// PHPCS - escaped by WordPress with "wp_nav_menu"
 			echo $primary_nav_menu; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			?>
 		</nav>

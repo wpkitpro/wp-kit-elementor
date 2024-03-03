@@ -79,6 +79,17 @@ if ( ! function_exists( 'wp_kit_elementor_get_settings' ) ) {
 }
 
 /**
+ * Returns either 'show' or 'hide' based on the value of the setting with the given $setting_id.
+ *
+ * @param   string  $setting_id  The ID of the setting to check.
+ *
+ * @return string Returns 'show' if the value of the setting is 'yes', otherwise returns 'hide'.
+ */
+function wp_kit_elementor_show_hide( $setting_id ) {
+	return ( 'yes' === wp_kit_elementor_get_settings( $setting_id ) ? 'show' : 'hide' );
+}
+
+/**
  * Dynamic Header Classes
  */
 if ( ! function_exists( 'wp_kit_elementor_get_header_layout_classes' ) ) {
@@ -108,6 +119,28 @@ if ( ! function_exists( 'wp_kit_elementor_get_header_layout_classes' ) ) {
 			$layout_classes[] = 'header-full-width';
 		}
 
+		$header_menu_dropdown = wp_kit_elementor_get_settings( 'wpkit_elementor_header_menu_dropdown' );
+		if ( 'tablet' === $header_menu_dropdown ) {
+			$layout_classes[] = 'menu-dropdown-tablet';
+		} elseif ( 'mobile' === $header_menu_dropdown ) {
+			$layout_classes[] = 'menu-dropdown-mobile';
+		} elseif ( 'none' === $header_menu_dropdown ) {
+			$layout_classes[] = 'menu-dropdown-none';
+		}
+
+		$wpkit_elementor_header_menu_layout = wp_kit_elementor_get_settings( 'wpkit_elementor_header_menu_layout' );
+		if ( 'dropdown' === $wpkit_elementor_header_menu_layout ) {
+			$layout_classes[] = 'menu-layout-dropdown';
+		}
+
 		return implode( ' ', $layout_classes );
 	}
 }
+
+add_action( 'wp_enqueue_scripts', function () {
+	$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+
+	wp_enqueue_script( 'wpkit-elementor-frontend', get_template_directory_uri() . '/assets/js/wpkit-frontend.js', WPKIT_ELEMENTOR_VERSION, true );
+
+	Plugin::$instance->kits_manager->frontend_before_enqueue_styles();
+} );

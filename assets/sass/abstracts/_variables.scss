@@ -1,4 +1,15 @@
-// Colors
+/**
+ * Template variables
+ */
+
+// Media Breakpoints
+$screen-xs: 576px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-xl: 1200px !default;
+$screen-diff: 1px !default;
+
+// Default Colors
 $gray-base: #212529 !default;
 $blue: #605be5 !default;
 $dark-blue: #333366 !default;

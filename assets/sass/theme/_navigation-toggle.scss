@@ -1,0 +1,129 @@
+/**
+ * Navigation Toggle Style
+ */
+@use "sass:math";
+
+// Settings
+// ==================================================
+$hamburger-padding-x: 15px !default;
+$hamburger-padding-y: 15px !default;
+$hamburger-layer-width: 40px !default;
+$hamburger-layer-height: 4px !default;
+$hamburger-layer-spacing: 6px !default;
+$hamburger-layer-color: #000 !default;
+$hamburger-layer-border-radius: 4px !default;
+$hamburger-hover-opacity: 0.7 !default;
+$hamburger-active-layer-color: $hamburger-layer-color !default;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter: false !default;
+$hamburger-hover-filter: opacity(50%) !default;
+$hamburger-active-hover-filter: $hamburger-hover-filter !default;
+
+.site-navigation-toggle-container.show {
+	display: flex;
+	align-items: center;
+}
+
+.site-navigation-toggle {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+
+	transition-property: opacity, filter;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+
+	// Normalize (<button>)
+	font: inherit;
+	color: inherit;
+	border: 0;
+	margin: 0;
+	overflow: visible;
+	text-transform: none;
+	background-color: transparent;
+	border: none;
+
+	&:hover {
+		background: transparent;
+		@if $hamburger-hover-use-filter == true {
+			filter: $hamburger-hover-filter;
+		} @else {
+			opacity: $hamburger-hover-opacity;
+		}
+	}
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+
+	.hamburger-inner,
+	.hamburger-inner::before,
+	.hamburger-inner::after {
+		background-color: currentColor;
+	}
+
+	&.is-active {
+		&:hover {
+			@if $hamburger-hover-use-filter == true {
+				filter: $hamburger-active-hover-filter;
+			} @else {
+				opacity: $hamburger-active-hover-opacity;
+			}
+		}
+
+		.hamburger-inner,
+		.hamburger-inner::before,
+		.hamburger-inner::after {
+			background-color: currentColor;
+		}
+	}
+
+}
+
+.hamburger-box {
+	width: $hamburger-layer-width;
+	height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
+	display: inline-block;
+	position: relative;
+	pointer-events: none;
+}
+
+.hamburger-inner {
+	display: block;
+	top: 50%;
+	pointer-events: none;
+	margin-top: math.div($hamburger-layer-height, -2);
+
+	&,
+	&::before,
+	&::after {
+		width: $hamburger-layer-width;
+		height: $hamburger-layer-height;
+		background-color: $hamburger-layer-color;
+		border-radius: $hamburger-layer-border-radius;
+		position: absolute;
+		transition-property: transform;
+		transition-duration: 0.15s;
+		transition-timing-function: ease;
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+	}
+
+	&::before {
+		top: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+	}
+
+	&::after {
+		bottom: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+	}
+}
