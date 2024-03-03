@@ -43,11 +43,18 @@ Source: https://stocksnap.io/photo/BHIL9FV6RK
 == Changelog ==
 
 = 2.0.0 - 2024-02-09 =
-* New: Add dynamic header and settings for site dynamic header.
+* New: Introduced dynamic header and footer functionality alongside theme settings for enhanced site customization.
+* Update: Update single post template structure.
+* Update: The footer components of the wp-kit-elementor theme have been wrapped inside a 'footer-inside'.
+* Update: Updated theme main template structure and description
+* Tweak: Update footer styling.
+* Tweak: Simplified layout in header.php and footer.php
+* Tweak: Updated the `.site-header` class to support styling changes required for compatibility with WP-Kit Elementor 2.0.0.
 * Tweak: Introduced new function `wp_kit_elementor_display_header` for header display control.
 * Tweak: Customized rendering of site logo and navigation menu in the header.
 * Tweak: Refactor styles enqueue in wp-kit-elementor theme
 * Fixed: Modified the CSS class in `_header.scss` from `.site-logo` to `.site-site-branding`.
+* Removed: Remove page container site-page.
 
 = 1.0.6 - 2024-01-22 =
 * Fixed: Correct function names in wp_kit_elementor theme
